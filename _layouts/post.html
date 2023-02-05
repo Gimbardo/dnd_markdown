@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <main>
+      {% include header.html %}
+      <section class="article">
+        <img
+          src="https://capsule-render.vercel.app/api?type=waving&color=0:{{page.primary_color}},100:{{page.secondary_color}}&text={{page.title}}&fontSize=60&&fontColor={{page.title_font_color}}"
+        />
+        <div class="content">{{content}}</div>
+      </section>
+      {% include footer.html %}
+    </main>
+    {% include category-modal.html%}
+  </body>
+</html>
