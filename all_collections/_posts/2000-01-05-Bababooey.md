@@ -4,6 +4,7 @@ title: Bababooey
 primary_color: 60eb8a
 secondary_color: 000000
 title_font_color: f6f1f4
+categories: [Wizard, Goblin]
 ---
 
 ## Summary
