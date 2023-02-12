@@ -9,51 +9,49 @@ categories: [Bard, Tortle]
 
 ## Summary
 
-| Class & Subclass| Background | Race | Alignment | Level |
-|:-:|:-:|:-:|:-:|:-:|
-| Bard, College of Swords | Entertainer | Tortle | Chaotic Neutral | 9 |
+|    Class & Subclass     | Background  |  Race  |    Alignment    | Level |
+| :---------------------: | :---------: | :----: | :-------------: | :---: |
+| Bard, College of Swords | Entertainer | Tortle | Chaotic Neutral |   9   |
 
 ---
 
 ## Statistics
 
-||||
-|-|-|-|
+|                 |                        |               |
+| --------------- | ---------------------- | ------------- |
 | Proficiency: +4 | Passive Perception: 16 | Initative: +2 |
-| Hit Points: 88 | Armor Class: 20  | Speed: 30ft |
+| Hit Points: 88  | Armor Class: 20        | Speed: 30ft   |
 
-| Strength| Dexterity | Constitution | Intelligence | Wisdom | Charisma |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| **+4** (18) | **0** (10) | **18** (+4) | **-1** (8) | **+2** (14) | **+4** (18) |
+|  Strength   | Dexterity  | Constitution | Intelligence |   Wisdom    |  Charisma   |
+| :---------: | :--------: | :----------: | :----------: | :---------: | :---------: |
+| **+4** (18) | **0** (10) | **18** (+4)  |  **-1** (8)  | **+2** (14) | **+4** (18) |
 
-| Saving Throws | Modifier |
-|:-|:-:|
-| Strength            | **+4** |
-| **\~ Dexterity \~** | **+4** |
-| Constitution        | **+4** |
-| Intelligence        | **-1** |
-| Wisdom              | **+2** |
-| **\~ Charisma \~**  | **+8** |
+| Saving Throws       | Modifier |
+| :------------------ | :------: |
+| Strength            |  **+4**  |
+| **\~ Dexterity \~** |  **+4**  |
+| Constitution        |  **+4**  |
+| Intelligence        |  **-1**  |
+| Wisdom              |  **+2**  |
+| **\~ Charisma \~**  |  **+8**  |
 
-| Skills | Modifier | | Skills | Modifier |
-|:-|:-:|:-:|:-|:-:|
-| **\~ Acrobatics \~**       | +4  || Medicine                  | +4  |
-| Animal Handling            | +4  || Nature                    | +1  |
-| Arcana                     | +1  || **\~ Perception~ \~**     | +6  |
-| **\~ Athletics \~**        | +8  || **\~\~ Performance \~\~** | +12 |
-| Deception                  | +6  || Persuasion                | +6  |
-| History                    | +1  || Religion                  | +1  |
-| Insight                    | +4  || Sleight of Hand           | +2  |
-| **\~\~ Intimidation \~\~** | +12 || Stealth                   | +2  |
-| Investigation              | +1  || **\~ Survival \~**        | +6  |
+| Skills                     | Modifier |     | Skills                    | Modifier |
+| :------------------------- | :------: | :-: | :------------------------ | :------: |
+| **\~ Acrobatics \~**       |    +4    |     | Medicine                  |    +4    |
+| Animal Handling            |    +4    |     | Nature                    |    +1    |
+| Arcana                     |    +1    |     | **\~ Perception~ \~**     |    +6    |
+| **\~ Athletics \~**        |    +8    |     | **\~\~ Performance \~\~** |   +12    |
+| Deception                  |    +6    |     | Persuasion                |    +6    |
+| History                    |    +1    |     | Religion                  |    +1    |
+| Insight                    |    +4    |     | Sleight of Hand           |    +2    |
+| **\~\~ Intimidation \~\~** |   +12    |     | Stealth                   |    +2    |
+| Investigation              |    +1    |     | **\~ Survival \~**        |    +6    |
 
 - everything is affected by Jack of All Trades
 - proficiency: **\~ Skill \~**
 - expertise: **\~\~ Skill \~\~**
 
 ---
-
-</div>
 
 ## Equipment
 
@@ -88,7 +86,7 @@ categories: [Bard, Tortle]
 
 ### Feat && Background
 
-- **Chef**: (+1 Const, Prof Utensili da Cucina) Durante uno short rest puoi cucinare per 4+Proficiency(8) creature: chi mangia e spende Hit Dices recupera 1d8 aggiuntivo di HP. Durante un long rest puoi preparare Proficiency(4) dolcetti, che durano 8 ore, una creatura che mangia questi come bonus action guadagna Proficiency(4) Temporary Hit Points
+- **Moderately Armored**: (+1 Stregth, Prof Shields and Medium Armor)
 - **By Popular Demand**: trovi sempre un posto in cui esibirti
 
 ---
@@ -117,50 +115,51 @@ Jesty The Tortle è una grande tartaruga dal guscio verde scuro, e la pelle legg
 
 ## Spells
 
-| Spellcasting Ability: Charisma | Spell Save DC: 16  | Spell Attack Bonus: 8 |
-|-|-|-|
+| Spellcasting Ability: Charisma | Spell Save DC: 16 | Spell Attack Bonus: 8 |
+| ------------------------------ | ----------------- | --------------------- |
+|                                |                   |                       |
 
-| Cantrips | Effect |
-|-|-|
-| [Mage Hand](https://5e.tools/spells.html#mage%20hand_phb) | Magic hand uwu :)) |
-| [Prestidigitation](https://5e.tools/spells.html#prestidigitation_phb) | stuff |
-| [Light](https://5e.tools/spells.html#light_phb) | touch -> light 20 feet, dim light 20 more feet |
+| Cantrips                                                              | Effect                                         |
+| --------------------------------------------------------------------- | ---------------------------------------------- |
+| [Mage Hand](https://5e.tools/spells.html#mage%20hand_phb)             | Magic hand uwu :))                             |
+| [Prestidigitation](https://5e.tools/spells.html#prestidigitation_phb) | stuff                                          |
+| [Light](https://5e.tools/spells.html#light_phb)                       | touch -> light 20 feet, dim light 20 more feet |
 
-| 1st level (4/4 slots) | Effect |
-|-|-|
-|[Silvery Barbs](https://5e.tools/spells.html#silvery%20barbs_scc)| Reaction => fai rerollare un d20, per tenere il risultato minore, e fai ottenere vantaggio ad un alleato (o te stesso) da usare nel prossimo minuto |
-|[Cure Wounds](https://5e.tools/spells.html#cure%20wounds_phb)| Action => touch, 1d8+4 cura |
-|[Healing Word](https://5e.tools/spells.html#healing%20word_phb)|Bonus Action => 60ft, 1 creature, 1d4+4 cura|
-|[Unseen Servant](https://5e.tools/spells.html#unseen%20servant_phb)| invisible friend |
-|[Feather Fall](https://5e.tools/spells.html#feather%20fall_phb)| Reaction => 5 creature, no falling damage |
+| 1st level (4/4 slots)                                               | Effect                                                                                                                                              |
+| ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Silvery Barbs](https://5e.tools/spells.html#silvery%20barbs_scc)   | Reaction => fai rerollare un d20, per tenere il risultato minore, e fai ottenere vantaggio ad un alleato (o te stesso) da usare nel prossimo minuto |
+| [Cure Wounds](https://5e.tools/spells.html#cure%20wounds_phb)       | Action => touch, 1d8+4 cura                                                                                                                         |
+| [Healing Word](https://5e.tools/spells.html#healing%20word_phb)     | Bonus Action => 60ft, 1 creature, 1d4+4 cura                                                                                                        |
+| [Unseen Servant](https://5e.tools/spells.html#unseen%20servant_phb) | invisible friend                                                                                                                                    |
+| [Feather Fall](https://5e.tools/spells.html#feather%20fall_phb)     | Reaction => 5 creature, no falling damage                                                                                                           |
 
-| 2nd level (3/3 slots) | Effect |
-|-|-|
-|[Skywrite](https://5e.tools/spells.html#skywrite_xge)| Scrivi nel cielo |
-|[See Invisibility](https://5e.tools/spells.html#see%20invisibility_phb)| vedi le cose invisibile e nel piano etereo |
+| 2nd level (3/3 slots)                                                   | Effect                                     |
+| ----------------------------------------------------------------------- | ------------------------------------------ |
+| [Skywrite](https://5e.tools/spells.html#skywrite_xge)                   | Scrivi nel cielo                           |
+| [See Invisibility](https://5e.tools/spells.html#see%20invisibility_phb) | vedi le cose invisibile e nel piano etereo |
 
-| 3rd level (3/3 slots) | Effect |
-|-|-|
-|[Motivational Speech](https://5e.tools/spells.html#motivational%20speech_ai)| 5 creature, 5 hit points, vantaggio Wisdom Saving Throw, colpito da un attacco: vantaggio nel prossimo attacco |
-|[Fear](https://5e.tools/spells.html#fear_phb)| Action => Wisdom Save Throw, target droppa tutto e scappa |
+| 3rd level (3/3 slots)                                                        | Effect                                                                                                         |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| [Motivational Speech](https://5e.tools/spells.html#motivational%20speech_ai) | 5 creature, 5 hit points, vantaggio Wisdom Saving Throw, colpito da un attacco: vantaggio nel prossimo attacco |
+| [Fear](https://5e.tools/spells.html#fear_phb)                                | Action => Wisdom Save Throw, target droppa tutto e scappa                                                      |
 
-| 4th level (3/3 slots) | Effect |
-|-|-|
-|[Dimension Door](https://5e.tools/spells.html#dimension%20door_phb)| 500ft range, you and 1 willing creature |
-|[Charm Monster](https://5e.tools/spells.html#charm%20monster_xge)| Charm su un mostro |
+| 4th level (3/3 slots)                                               | Effect                                  |
+| ------------------------------------------------------------------- | --------------------------------------- |
+| [Dimension Door](https://5e.tools/spells.html#dimension%20door_phb) | 500ft range, you and 1 willing creature |
+| [Charm Monster](https://5e.tools/spells.html#charm%20monster_xge)   | Charm su un mostro                      |
 
-| 5th level (1/1 slots)| | Effect |
-|-|-|
-|[Hold Monster](https://5e.tools/spells.html#hold%20monster_phb)| 1 target => Wisdom Saving Throw or paralyzed|
+| 5th level (1/1 slots)                                           |                                              | Effect |
+| --------------------------------------------------------------- | -------------------------------------------- | ------ |
+| [Hold Monster](https://5e.tools/spells.html#hold%20monster_phb) | 1 target => Wisdom Saving Throw or paralyzed |
 
-| 6th level (0 slots)|
-|-|
+| 6th level (0 slots) |
+| ------------------- |
 
-| 7th level (0 slots)|
-|-|
+| 7th level (0 slots) |
+| ------------------- |
 
-| 8th level (0 slots)|
-|-|
+| 8th level (0 slots) |
+| ------------------- |
 
-| 9th level (0 slots)|
-|-|
+| 9th level (0 slots) |
+| ------------------- |
