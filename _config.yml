@@ -1,5 +1,7 @@
 title: Character Sheets
 markdown: kramdown
+domain: gimbardo.github.io
+url: https://gimbardo.github.io
 
 # for atom feed
 author:
@@ -22,5 +24,5 @@ defaults:
       path: "_posts"
     values:
       layout: "post"
-      permalink: /characters/:title/
+      permalink: /:title/
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
