@@ -22,9 +22,11 @@ categories: [Bard, Tortle]
 | Proficiency: +4 | Passive Perception: 16 | Initative: +2 |
 | Hit Points: 88  | Armor Class: 20        | Speed: 30ft   |
 
-|  Strength   | Dexterity  | Constitution | Intelligence |   Wisdom    |  Charisma   |
-| :---------: | :--------: | :----------: | :----------: | :---------: | :---------: |
-| **+4** (18) | **0** (10) | **18** (+4)  |  **-1** (8)  | **+2** (14) | **+4** (18) |
+|              |             |     |              |             |
+| :----------: | :---------: | :-: | :----------: | :---------: |
+|   Strength   | **+4** (18) |     | Intelligence | **-1** (8)  |
+|  Dexterity   | **0** (10)  |     |    Wisdom    | **+2** (14) |
+| Constitution | **18** (+4) |     |   Charisma   | **+4** (18) |
 
 | Saving Throws       | Modifier |
 | :------------------ | :------: |
