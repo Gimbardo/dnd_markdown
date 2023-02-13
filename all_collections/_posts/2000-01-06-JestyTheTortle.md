@@ -13,6 +13,10 @@ categories: [Bard, Tortle]
 | :---------------------: | :---------: | :----: | :-------------: | :---: |
 | Bard, College of Swords | Entertainer | Tortle | Chaotic Neutral |   9   |
 
+<div align="center">
+<img src="/assets/img/JestyTheTortle.jpg" alt="Jesty" title="JestyTheTortle" width="30%">
+</div>
+
 ---
 
 ## Statistics
@@ -156,12 +160,16 @@ Jesty The Tortle è una grande tartaruga dal guscio verde scuro, e la pelle legg
 
 | 6th level (0 slots) |
 | ------------------- |
+|                     |
 
 | 7th level (0 slots) |
 | ------------------- |
+|                     |
 
 | 8th level (0 slots) |
 | ------------------- |
+|                     |
 
 | 9th level (0 slots) |
 | ------------------- |
+|                     |

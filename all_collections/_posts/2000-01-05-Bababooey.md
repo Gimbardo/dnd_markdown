@@ -13,6 +13,11 @@ categories: [Wizard, Goblin]
 | :-------------------------------------------------------------------------------------: | :--------: | :-------------------------------------------------------------------------------------------------: | :----------: | :---: |
 | [Wizard Chronurgy](https://5e.tools/classes.html#wizard_phb,state:sub-chronurgy-egw=b1) |    Sage    | [Goblin](https://5e.tools/races.html#goblin_vgm) => [Fairy](https://5e.tools/races.html#fairy_mpmm) | Neutral Good |   9   |
 
+<div align="center">
+<img src="/assets/img/Bababooey.jpg" alt="Bababooey" title="Bababooey" width="40%">
+<img src="/assets/img/GoblinPlushie.png" alt="Plushie" title="Plushie" width="30%">
+</div>
+
 ---
 
 ## Statistics
@@ -116,9 +121,6 @@ Il gruppo attraversa il portale, e si ritrova nella città di Cyre, luogo da cui
 Il gruppo prova a riposarsi, appena sceso dal treno, ma viene interrotto da un gruppo guidato da un'elfa pallida, che li lega e li porta via come prigionieri.
 
 ## Description
-
-<img src="/assets/img/Bababooey.jpg" alt="Bababooey" title="Bababooey" width="40%">
-<img src="/assets/img/GoblinPlushie.png" alt="Plushie" title="Plushie" width="30%">
 
 Bababooey è un goblin verde, basso, persino per un goblin. È coperto da una tunica bianca, con un cappello a cono in testa, che utilizza per castare le proprie spell. Tiene sempre con se un peluche, chiamato Verdino, a forma di goblin, che ogni tanto abbraccia per combattere la paura. Le mani verdi, che escono dalla tunica, tengono in mano il libro su cui scrive minuziosamente tutte le spell. La faccia mostra un viso dai tratti da goblin, come denti acuminati e occhi rossi, ma con un'espressione umana: bocca quasi sorridente e faccia rilassata.
 
