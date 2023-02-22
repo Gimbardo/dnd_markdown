@@ -21,9 +21,11 @@ categories: [Geniere, Procione]
 
 ## Statistiche
 
-| Forza | Destrezza | Costituzione | Intelletto | Saggezza | Carisma |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| **-2** (7) | **+3** (16) | **+3** (16) | **+4** (18) | **+0** (11) | **+1** (12) |
+|              |             |     |              |             |
+| :----------: | :---------: | :-: | :----------: | :---------: |
+|   Strength   | **7** (-2)  |     | Intelligence | **18** (+4) |
+|  Dexterity   | **16** (+3) |     |    Wisdom    | **11** (0) |
+| Constitution | **16** (+3) |     |   Charisma   | **12** (+1) |
 
 ||||
 |-|-|-|
@@ -57,7 +59,7 @@ categories: [Geniere, Procione]
 
 - **Collector**: (hit: d20+dex+half_int+prof, dmg: 2d8+dex), action (migliorie: canna lunga)
 - **Striscia**: (hit: d20+dex, dmg: 1d8), bonus action
-- **Mosghetto**: (hit: d20+dex+prof, dmg: 2d12+3) action, arma a due mani
+- **Mosghetto**: (hit: d20+dex+prof, dmg: 2d12+3) action, arma a due mani (migliorie: proiettili a frammentazione)
 
 ---
 
@@ -89,6 +91,9 @@ categories: [Geniere, Procione]
   - Collector: Canna Lunga (half_int ai tiri per colpire)
 - **Factotum**: Mezza Proficiency a tutte le skill in cui non hai competenza
 - **Estetica Innanzitutto**: +1 Conio /livello
+- **Migliorie dell'arma**: 
+  - Canna Lunga: aggiungi mezza intelligenza ai tiri per colpire dell'arma
+  - Proiettili a Frammentazione: quando hitti, colpisci anche un secondo bersaglio infliggendo solo un dado dei danni dell'arma (range: 1,5 metri dal bersaglio principale)
 
 ---
 
