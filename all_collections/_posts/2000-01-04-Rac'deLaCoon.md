@@ -55,7 +55,7 @@ categories: [Geniere, Procione]
 
 ## Attacchi
 
-- **Collector**: (hit: d20+dex+half_int+prof, dmg: 2d8), action (migliorie: canna lunga)
+- **Collector**: (hit: d20+dex+half_int+prof, dmg: 2d8+dex), action (migliorie: canna lunga)
 - **Striscia**: (hit: d20+dex, dmg: 1d8), bonus action
 - **Mosghetto**: (hit: d20+dex+prof, dmg: 2d12+3) action, arma a due mani
 
@@ -114,5 +114,25 @@ Rac'DeLaCoon, nato nell'omonimo quartiere (Coon) della Città dei Venti, cresce 
 ## Descrizione
 
 Rac'DeLaCoon è un procione alto 1,60 metri e di 65 kg. Indossa una tunica rossa, tenuta insieme da delle cinture di pelle, un cappellino, e due stivali, anch'essi di pelle, dalla punta accentuata. Sulla faccia, molto tonda, tiene un paio di occhialini senza asticelle, e dei baffi neri arricciolati particolarmente curati. Ha il manto marroncino, con delle strisce nere lungo la coda, e sugli occhi. Quando combatte utilizza due armi: il Collec'Tor nella destra, e una Striscia, nella sinistra.
+
+---
+
+## Carattere
+
+### Tratto
+
+Creerò l'arma definitiva: stupenda e letale
+
+### Ideale
+
+Voglio un'arma che solo a guardarla possa uccidere
+
+### Legame
+
+Amico d'infanzia di Alex Under
+
+### Difetto
+
+Accumulatore Ossessivo, con il grilletto facile
 
 ---
