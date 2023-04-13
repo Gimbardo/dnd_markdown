@@ -31,17 +31,19 @@ body {
   background-color: var(--gray-5);
 }
 header {
-  padding: 2rem 0 4rem 0;
+  display: flex;
 }
 header .site-title {
   font-size: 4rem;
   font-weight: bolder;
   line-height: 110%;
   color: var(--white-1);
+  text-align: center;
+  width: 100%;
 }
 main {
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 800px;
   padding: 3rem 0;
 }
 

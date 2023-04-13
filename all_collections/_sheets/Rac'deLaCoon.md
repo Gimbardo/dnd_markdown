@@ -7,8 +7,6 @@ title_font_color: f6f1f4
 categories: [Geniere, Procione]
 ---
 
-## Sommario
-
 | Familia | Specie | Classe & Sottoclasse | Ventura | Allineamento | Livello |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 | Mustaceo | Procione | Geniere Tecnico | Arte | Caotico Neutrale | 3 |

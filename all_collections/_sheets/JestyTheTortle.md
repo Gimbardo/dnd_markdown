@@ -7,14 +7,12 @@ title_font_color: f6f1f4
 categories: [Bard, Tortle]
 ---
 
-## Summary
-
 |    Class & Subclass     | Background  |  Race  |    Alignment    | Level |
 | :---------------------: | :---------: | :----: | :-------------: | :---: |
 | Bard, College of Swords | Entertainer | Tortle | Chaotic Neutral |   9   |
 
 <div align="center">
-<img src="/assets/img/JestyTheTortle.jpg" alt="Jesty" title="JestyTheTortle" width="30%">
+<img src="/assets/img/JestyTheTortle.webp" alt="Jesty" title="JestyTheTortle">
 </div>
 
 ---

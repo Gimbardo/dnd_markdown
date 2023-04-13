@@ -7,8 +7,6 @@ title_font_color: f6f1f4
 categories: [Bard, Gattopardo]
 ---
 
-## Sommario
-
 | Classe & Sottoclasse | Background |    Race    |   Allineamento   | Livello |
 | :------------------: | :--------: | :--------: | :--------------: | :-----: |
 |     Bardo Guappo     | Innamorato | Gattopardo | Caotico Neutrale |    4    |

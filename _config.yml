@@ -1,12 +1,13 @@
-title: Character Sheets
+title: D&D Sheets
 markdown: kramdown
 domain: dnd.gimbaro.dev
+github: https://github.com/Gimbardo/dnd_markdown
 url: https://dnd.gimbaro.dev
 
 # for atom feed
 author:
   name: Gamberi Elia
-  email: gamberielia@gmail.com
+  email: me@gimbaro.dev
 
 plugins:
   - jemoji

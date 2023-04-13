@@ -7,8 +7,6 @@ title_font_color: f6f1f4
 categories: [Warlock, Tiefling]
 ---
 
-## Summary
-
 | Class & Subclass| Background | Race | Alignment | Level |
 |:-:|:-:|:-:|:-:|:-:|
 | Warlock, The Fiend | Haunted One | Tiefling | Chaotic Neutral | 5 |

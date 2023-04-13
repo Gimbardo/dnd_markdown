@@ -7,15 +7,12 @@ title_font_color: f6f1f4
 categories: [Wizard, Undead]
 ---
 
-## Summary
-
 |  Class & Subclass  |   Background    |      Race      |    Alignment    | Level |
 | :----------------: | :-------------: | :------------: | :-------------: | :---: |
 | Wizard Necromancer | Ordine di Icaro | Reborn (Human) | Chaotic Neutral |   8   |
 
 <div align="center">
-<img src="/assets/img/O'Birgam.jpg" alt="O'Birgam" title="O'Birgam" width="30%">
-<img src="/assets/img/Skydd.jpg" alt="O'Birgam" title="O'Birgam" width="30%">
+<img src="/assets/img/O'Birgam.webp" alt="O'Birgam" title="O'Birgam" width="50%">
 </div>
 
 ---

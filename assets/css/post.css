@@ -34,9 +34,6 @@ body {
   color: cyan;
   border-bottom: 1px solid cyan;
 }
-header {
-  padding: 2rem 0 4rem 0;
-}
 .site-title {
   font-size: 1.4rem;
   font-weight: bolder;
@@ -45,7 +42,7 @@ header {
 }
 main {
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 800px;
   padding: 3rem 0 4rem 0;
 }
 .article {

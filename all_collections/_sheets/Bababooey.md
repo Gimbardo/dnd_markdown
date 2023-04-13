@@ -7,8 +7,6 @@ title_font_color: f6f1f4
 categories: [Wizard, Goblin]
 ---
 
-## Summary
-
 |                                    Class & Subclass                                     | Background |                                                Race                                                 |  Alignment   | Level |
 | :-------------------------------------------------------------------------------------: | :--------: | :-------------------------------------------------------------------------------------------------: | :----------: | :---: |
 | [Wizard Chronurgy](https://5e.tools/classes.html#wizard_phb,state:sub-chronurgy-egw=b1) |    Sage    | [Goblin](https://5e.tools/races.html#goblin_vgm) => [Fairy](https://5e.tools/races.html#fairy_mpmm) | Neutral Good |   9   |
