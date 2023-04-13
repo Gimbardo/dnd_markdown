@@ -19,12 +19,17 @@ categories: [Wizard, Undead]
 
 ## Statistics
 
-| Hit Points: 49 | Armor Class: 11 | Speed: 30ft | Proficiency: 3 | Passive Perception: 11 (Skydd) |
-| -------------- | --------------- | ----------- | -------------- | ------------------------------ |
 
-|  Strength   |  Dexterity  | Constitution | Intelligence |   Wisdom   |  Charisma   |
-| :---------: | :---------: | :----------: | :----------: | :--------: | :---------: |
-| **+0** (11) | **+1** (12) | **+1** (12)  | **+5** (20)  | **-3** (5) | **+4** (18) |
+|                 |                                |                |
+|-----------------|--------------------------------|----------------|
+| Proficiency: +3 | Passive Perception: 11 (Skydd) | Initative: +1  |
+| Hit Points: 49  | Armor Class: 11                | Speed: 30ft    |
+
+|              |             |     |              |             |
+| :----------: |:-----------:| :-: | :----------: |:-----------:|
+|   Strength   | **0** (11)  |     | Intelligence | **+5** (20) |
+|  Dexterity   | **+1** (12) |     |    Wisdom    | **-3** (5)  |
+| Constitution | **+1** (12) |     |   Charisma   | **+4** (18) |
 
 | Saving Throws          | Modifier |
 | :--------------------- | :------: |
@@ -35,17 +40,17 @@ categories: [Wizard, Undead]
 | **\~ Wisdom \~**       |  **-3**  |
 | Charisma               |  **+4**  |
 
-| Skills                    | Modifier |     | Skills          | Modifier |
-| :------------------------ | :------: | :-: | :-------------- | :------: |
-| Acrobatics                |    +1    | \|  | Medicine        |    -3    |
-| **\~ Animal Handling \~** |  **0**   | \|  | Nature          |    +5    |
-| **\~ Arcana \~**          |  **+8**  | \|  | Perception      |    -3    |
-| Athletics                 |    0     | \|  | Performance     |    +4    |
-| **\~ Deception \~**       |  **+7**  | \|  | Persuasion      |    +4    |
-| History                   |    +5    | \|  | Religion        |    +5    |
-| Insight                   |    -3    | \|  | Sleight of Hand |    +1    |
-| Intimidation              |    +4    | \|  | Stealth         |    +1    |
-| **\~ Investigation \~**   |  **+8**  | \|  | Survival        |    -3    |
+| Skills                    | Modifier |   | Skills          | Modifier |
+| :------------------------ | :------: |:-:| :-------------- | :------: |
+| Acrobatics                |    +1    |   | Medicine        |    -3    |
+| **\~ Animal Handling \~** |  **0**   |   | Nature          |    +5    |
+| **\~ Arcana \~**          |  **+8**  |   | Perception      |    -3    |
+| Athletics                 |    0     |   | Performance     |    +4    |
+| **\~ Deception \~**       |  **+7**  |   | Persuasion      |    +4    |
+| History                   |    +5    |   | Religion        |    +5    |
+| Insight                   |    -3    |   | Sleight of Hand |    +1    |
+| Intimidation              |    +4    |   | Stealth         |    +1    |
+| **\~ Investigation \~**   |  **+8**  |   | Survival        |    -3    |
 
 ---
 
@@ -58,7 +63,7 @@ categories: [Wizard, Undead]
 
 ---
 
-## Features and Traits
+## Features & Traits
 
 - **Shadow Touched**: (+1 Int) You learn and can cast Invisibility (2nd level) or Inflict Wounds (1st level) gratis 1 time/ day, then using spell slots.
 - **Ancestral Legacy**: (+2 Proficiencies)
@@ -139,23 +144,3 @@ O'Birgam is a pale "human", with green eyes and black medium-length hair. He alw
 | ------------------- |
 | Blight              |
 | Banishment (Conc)   |
-
-| 5th level |
-| --------- |
-|           |
-
-| 6th level |
-| --------- |
-|           |
-
-| 7th level |
-| --------- |
-|           |
-
-| 8th level |
-| --------- |
-|           |
-
-| 9th level |
-| --------- |
-|           |

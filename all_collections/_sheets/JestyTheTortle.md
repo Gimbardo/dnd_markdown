@@ -25,10 +25,10 @@ categories: [Bard, Tortle]
 | Hit Points: 88  | Armor Class: 20        | Speed: 30ft   |
 
 |              |             |     |              |             |
-| :----------: | :---------: | :-: | :----------: | :---------: |
+| :----------: |:-----------:| :-: | :----------: | :---------: |
 |   Strength   | **+4** (18) |     | Intelligence | **-1** (8)  |
 |  Dexterity   | **0** (10)  |     |    Wisdom    | **+2** (14) |
-| Constitution | **18** (+4) |     |   Charisma   | **+4** (18) |
+| Constitution | **+4** (18) |     |   Charisma   | **+4** (18) |
 
 | Saving Throws       | Modifier |
 | :------------------ | :------: |
@@ -64,7 +64,7 @@ categories: [Bard, Tortle]
 
 ---
 
-## Features and Traits
+## Features & Traits
 
 ### Race
 
@@ -88,7 +88,7 @@ categories: [Bard, Tortle]
 - **Font of Inspiration**: Short Rest / Long Rest => Recuperi dadi di ispirazione bardica
 - **Extra Attack**: Attack Action => Attacchi 2 volte
 
-### Feat && Background
+### Feat & Background
 
 - **Moderately Armored**: (+1 Stregth, Prof Shields and Medium Armor)
 - **By Popular Demand**: trovi sempre un posto in cui esibirti
@@ -155,19 +155,3 @@ Jesty The Tortle è una grande tartaruga dal guscio verde scuro, e la pelle legg
 | 5th level (1/1 slots)                                           |                                              | Effect |
 | --------------------------------------------------------------- | -------------------------------------------- | ------ |
 | [Hold Monster](https://5e.tools/spells.html#hold%20monster_phb) | 1 target => Wisdom Saving Throw or paralyzed |
-
-| 6th level (0 slots) |
-| ------------------- |
-|                     |
-
-| 7th level (0 slots) |
-| ------------------- |
-|                     |
-
-| 8th level (0 slots) |
-| ------------------- |
-|                     |
-
-| 9th level (0 slots) |
-| ------------------- |
-|                     |
