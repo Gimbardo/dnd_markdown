@@ -16,12 +16,14 @@ plugins:
 
 collections_dir: all_collections
 collections:
-  posts:
+  sheets:
+    output: true
+  oneshots:
     output: true
 
 defaults:
   - scope:
-      path: "_posts"
+      path: "_sheets"
     values:
       layout: "post"
       permalink: /:title/

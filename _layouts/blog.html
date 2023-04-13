@@ -5,13 +5,13 @@
     <main>
       {% include header.html %}
       <section class="articles">
-        {% for post in site.posts %}
+        {% for sheet in site.sheets %}
         <article class="article">
           <h2 class="article-title">
-            <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
+            <a href="{{site.baseurl}}{{sheet.url}}"> {{sheet.title}} </a>
           </h2>
           <div class="categories">
-            {% for c in post.categories %}
+            {% for c in sheet.categories %}
             <a href="#!" data-base-url="{{site.baseurl}}" class="category"
               >{{c}}</a
             >

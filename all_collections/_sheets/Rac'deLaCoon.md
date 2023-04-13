@@ -30,7 +30,7 @@ categories: [Geniere, Procione]
 ||||
 |-|-|-|
 | Competenza: +2 | Percezione Passiva: 12 | Iniziativa: +2 |
-| Punti Vita: 38 | Classe Armatura: 15  | Velocità: 9mt |
+| Punti Vita: 31/38 | Classe Armatura: 15  | Velocità: 9mt |
 
 | Tiri Salvezza | Modificatore |
 |:-|:-:|
@@ -59,7 +59,7 @@ categories: [Geniere, Procione]
 
 - **Collector**: (hit: d20+dex+half_int+prof, dmg: 2d8+dex), action (migliorie: canna lunga)
 - **Striscia**: (hit: d20+dex, dmg: 1d8), bonus action
-- **Mosghetto**: (hit: d20+dex+prof, dmg: 2d12+3) action, arma a due mani (migliorie: proiettili a frammentazione)
+- (ESPLOSO) **Mosghetto**: (hit: d20+dex+prof, dmg: 2d12+3) action, arma a due mani (migliorie: proiettili a frammentazione)
 
 ---
 

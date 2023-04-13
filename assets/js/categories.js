@@ -1,20 +1,44 @@
 ---
 ---
 
-const categories = { {% for category in site.categories %}{% capture category_name %}{{ category | first }}{% endcapture %}{{ category_name | replace: " ", "_" }}: [{% for post in site.categories[category_name] %}{ url: `{{ site.baseurl }}{{ post.url }}`, date: `{{post.date | date_to_string}}`, title: `{{post.title}}`},{% endfor %}],{% endfor %} }
+{%- for my_doc in site.sheets -%}
 
-console.log(categories)
+  {%- for category in my_doc.categories -%}
+    {%- capture my_categories -%}
+      {%- if my_categories -%}
+        {{ my_categories | join: "," }},{{ category }}
+      {%- else -%}
+         {{ category }}
+      {%- endif -%}
+    {%- endcapture -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+{%- assign my_categories = my_categories | split: "," | uniq -%}
+
+const categories = {
+  {%- for category in my_categories -%}
+    {{ category }}: [
+      {%- for sheet in site.sheets -%}{% if sheet.categories contains category %}
+        {url: `{{ site.baseurl }}{{ sheet.url }}`,
+        title: `{{sheet.title}}`},
+      {% endif %}{% endfor %}
+    ],
+  {%- endfor -%} }
+
+
+
+// console.log(categories)
 
 window.onload = function () {
   document.querySelectorAll(".category").forEach((category) => {
     category.addEventListener("click", function (e) {
-      const posts = categories[e.target.innerText.replace(" ","_")];
+      const sheets = categories[e.target.innerText.replace(" ","_")];
       let html = ``
-      posts.forEach(post=>{
+      sheets.forEach(sheet=>{
         html += `
-        <a class="modal-article" href="${post.url}">
-          <h4>${post.title}</h4>
-          <small class="modal-article-date">${post.date}</small>
+        <a class="modal-article" href="${sheet.url}">
+          <h4>${sheet.title}</h4>
         </a>
         `
       })
