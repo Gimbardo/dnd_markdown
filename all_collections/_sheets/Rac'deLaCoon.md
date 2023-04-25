@@ -7,9 +7,9 @@ title_font_color: f6f1f4
 categories: [Geniere, Procione]
 ---
 
-| Familia | Specie | Classe & Sottoclasse | Ventura | Allineamento | Livello |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| Mustaceo | Procione | Geniere Tecnico | Arte | Caotico Neutrale | 3 |
+| Familia  |  Specie  | Classe & Sottoclasse | Ventura |   Allineamento   | Livello |
+| :------: | :------: | :------------------: | :-----: | :--------------: | :-----: |
+| Mustaceo | Procione |   Geniere Tecnico    |  Arte   | Caotico Neutrale |    5    |
 
 <div align="center" style="width:60%;margin:auto;">
 <img src="/assets/img/Rac'DeLaCoon.jpg" alt="Rac'DeLaCoon" title="Rac'DeLaCoon" >
@@ -22,46 +22,47 @@ categories: [Geniere, Procione]
 |              |             |     |              |             |
 | :----------: | :---------: | :-: | :----------: | :---------: |
 |   Strength   | **7** (-2)  |     | Intelligence | **18** (+4) |
-|  Dexterity   | **16** (+3) |     |    Wisdom    | **11** (0) |
+|  Dexterity   | **16** (+3) |     |    Wisdom    | **11** (0)  |
 | Constitution | **16** (+3) |     |   Charisma   | **12** (+1) |
 
-||||
-|-|-|-|
-| Competenza: +2 | Percezione Passiva: 12 | Iniziativa: +2 |
-| Punti Vita: 31/38 | Classe Armatura: 15  | Velocità: 9mt |
+|                   |                        |                |
+| ----------------- | ---------------------- | -------------- |
+| Competenza: +3    | Percezione Passiva: 13 | Iniziativa: +3 |
+| Punti Vita: 44/44 | Classe Armatura: 15    | Velocità: 9mt  |
 
-| Tiri Salvezza | Modificatore |
-|:-|:-:|
-| Forza              | **-2** |
-| **\~Destrezza\~**  | **+5** |
-| Costituzione       | **+3** |
-| **\~Intelletto\~** | **+6** |
-| Saggezza           | **+0** |
-| Carisma            | **+1** |
+| Tiri Salvezza      | Modificatore |
+| :----------------- | :----------: |
+| Forza              |    **-2**    |
+| **\~Destrezza\~**  |    **+5**    |
+| Costituzione       |    **+3**    |
+| **\~Intelletto\~** |    **+6**    |
+| Saggezza           |    **+0**    |
+| Carisma            |    **+1**    |
 
-| Abilità | Modificatore | | Abilità | Modificatore |
-|:-|:-:|:-:|:-|:-:|
-| **\~Acrobazia\~**  | +5 || **\~Intuizione\~**    | +2 |
-| Addestrare Animali | +1 || Medicina              | +1 |
-| Arcano             | +5 || Natura                | +5 |
-| Atletica           | -1 || **\~Percezione\~**    | +2 |
-| Furtività          | +4 || Persuasion            | +2 |
-| Indagare           | +5 || Rapidità di Mano      | +4 |
-| Inganno            | +2 || Religione             | +5 |
-| Intimidire         | +2 || **\~Sopravvivenza\~** | +2 |
-| Intrattenere       | +2 || Storia                | +5 |
+| Abilità            | Modificatore |     | Abilità               | Modificatore |
+| :----------------- | :----------: | :-: | :-------------------- | :----------: |
+| **\~Acrobazia\~**  |      +5      |     | **\~Intuizione\~**    |      +2      |
+| Addestrare Animali |      +1      |     | Medicina              |      +1      |
+| Arcano             |      +5      |     | Natura                |      +5      |
+| Atletica           |      -1      |     | **\~Percezione\~**    |      +2      |
+| Furtività          |      +4      |     | Persuasion            |      +2      |
+| Indagare           |      +5      |     | Rapidità di Mano      |      +4      |
+| Inganno            |      +2      |     | Religione             |      +5      |
+| Intimidire         |      +2      |     | **\~Sopravvivenza\~** |      +2      |
+| Intrattenere       |      +2      |     | Storia                |      +5      |
 
 ---
 
 ## Attacchi
 
-- **Collector**: (hit: d20+dex+half_int+prof, dmg: 2d8+dex), action (migliorie: canna lunga)
-- **Striscia**: (hit: d20+dex, dmg: 1d8), bonus action
-- (ESPLOSO) **Mosghetto**: (hit: d20+dex+prof, dmg: 2d12+3) action, arma a due mani (migliorie: proiettili a frammentazione)
+- **Collector**: (hit: d20+8, dmg: 2d8+dex), action (migliorie: canna lunga)
+- **Striscia**: (hit: d20+3, dmg: 1d8), bonus action
 
 ---
 
 ## Tratti e Privilegi
+
+**Dado Vita**: D8
 
 ### Procione
 
@@ -89,9 +90,9 @@ categories: [Geniere, Procione]
   - Collector: Canna Lunga (half_int ai tiri per colpire)
 - **Factotum**: Mezza Proficiency a tutte le skill in cui non hai competenza
 - **Estetica Innanzitutto**: +1 Conio /livello
-- **Migliorie dell'arma**: 
+- **Migliorie delle armi**:
   - Canna Lunga: aggiungi mezza intelligenza ai tiri per colpire dell'arma
-  - Proiettili a Frammentazione: quando hitti, colpisci anche un secondo bersaglio infliggendo solo un dado dei danni dell'arma (range: 1,5 metri dal bersaglio principale)
+- **Tiratore Letale**: (azione per attaccare) raddoppi i dadi del primo colpo che colpisci
 
 ---
 
@@ -110,7 +111,7 @@ categories: [Geniere, Procione]
 
 ## Background
 
-Rac'DeLaCoon, nato nell'omonimo quartiere (Coon) della Città dei Venti, cresce in una famiglia di artigiani, esperti nella creazione di armi da fuoco. Fin da piccolo aiuta la piccola attività di famiglia, creando la sua prima arma, non funzionante, che porta ancora con se come portafortuna. Inoltre, in questi luoghi, matura un'amicizia con Alex Under. Cresciuto, crea "il Collec'Tor": la sua arma meglio riuscita, che decide di tenere per se.
+Rac'DeLaCoon, nato nell'omonimo quartiere (Coon) della Città dei Venti, cresce in una famiglia di artigiani, esperti nella creazione di armi da fuoco. Fin da piccolo aiuta la piccola attività di famiglia, creando la sua prima arma, non funzionante, che porta ancora con se come portafortuna. Inoltre, in questi luoghi, matura un'amicizia con Alex Under. Cresciuto, crea il "Collector": la sua arma meglio riuscita, che decide di tenere per se.
 
 ---
 
@@ -121,6 +122,8 @@ Rac'DeLaCoon è un procione alto 1,60 metri e di 65 kg. Indossa una tunica rossa
 ---
 
 ## Carattere
+
+Con un'attitudine da leader, un pò altezzoso, ama pianificare tutto, ed è un maniaco del controllo. Quando si trova ad improvvisare, spero si ritrova a minacciare gente con le proprie armi, sparando anche qualche colpo se necessario. Non ha troppo a cuore la vita delle persone a lui non care, in quanto le considera semplici pedine in un gioco più ampio.
 
 ### Tratto
 
