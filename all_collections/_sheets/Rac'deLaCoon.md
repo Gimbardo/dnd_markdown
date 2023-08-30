@@ -8,8 +8,8 @@ categories: [Geniere, Procione]
 ---
 
 | Familia  |  Specie  | Classe & Sottoclasse | Ventura |   Allineamento   | Livello |
-| :------: | :------: | :------------------: | :-----: | :--------------: | :-----: |
-| Mustaceo | Procione |   Geniere Tecnico    |  Arte   | Caotico Neutrale |    5    |
+| :------: | :------: | :------------------: | :-----: | :--------------: |:-------:|
+| Mustaceo | Procione |   Geniere Tecnico    |  Arte   | Caotico Neutrale |    8    |
 
 <div align="center" style="width:60%;margin:auto;">
 <img src="/assets/img/Rac'DeLaCoon.jpg" alt="Rac'DeLaCoon" title="Rac'DeLaCoon" >
@@ -20,43 +20,44 @@ categories: [Geniere, Procione]
 ## Statistiche
 
 |              |             |     |              |             |
-| :----------: | :---------: | :-: | :----------: | :---------: |
+| :----------: |:-----------:| :-: | :----------: | :---------: |
 |   Strength   | **7** (-2)  |     | Intelligence | **18** (+4) |
-|  Dexterity   | **16** (+3) |     |    Wisdom    | **11** (0)  |
+|  Dexterity   | **18** (+4) |     |    Wisdom    | **11** (0)  |
 | Constitution | **16** (+3) |     |   Charisma   | **12** (+1) |
 
 |                   |                        |                |
-| ----------------- | ---------------------- | -------------- |
-| Competenza: +3    | Percezione Passiva: 13 | Iniziativa: +3 |
-| Punti Vita: 44/44 | Classe Armatura: 15    | Velocità: 9mt  |
+|-------------------| ---------------------- |----------------|
+| Competenza: +3    | Percezione Passiva: 13 | Iniziativa: +4 |
+| Punti Vita: 72/72 | Classe Armatura: 15    | Velocità: 9mt  |
 
 | Tiri Salvezza      | Modificatore |
-| :----------------- | :----------: |
+| :----------------- |:------------:|
 | Forza              |    **-2**    |
-| **\~Destrezza\~**  |    **+5**    |
+| **\~Destrezza\~**  |    **+7**    |
 | Costituzione       |    **+3**    |
-| **\~Intelletto\~** |    **+6**    |
+| **\~Intelletto\~** |    **+7**    |
 | Saggezza           |    **+0**    |
 | Carisma            |    **+1**    |
 
 | Abilità            | Modificatore |     | Abilità               | Modificatore |
-| :----------------- | :----------: | :-: | :-------------------- | :----------: |
-| **\~Acrobazia\~**  |      +5      |     | **\~Intuizione\~**    |      +2      |
+| :----------------- |:------------:| :-: |:----------------------|:------------:|
+| **\~Acrobazia\~**  |      +7      |     | **\~Intuizione\~**    |      +3      |
 | Addestrare Animali |      +1      |     | Medicina              |      +1      |
 | Arcano             |      +5      |     | Natura                |      +5      |
-| Atletica           |      -1      |     | **\~Percezione\~**    |      +2      |
-| Furtività          |      +4      |     | Persuasion            |      +2      |
-| Indagare           |      +5      |     | Rapidità di Mano      |      +4      |
+| Atletica           |      -1      |     | **\~Percezione\~**    |      +3      |
+| Furtività          |      +5      |     | Persuasione           |      +2      |
+| Indagare           |      +5      |     | Rapidità di Mano      |      +5      |
 | Inganno            |      +2      |     | Religione             |      +5      |
-| Intimidire         |      +2      |     | **\~Sopravvivenza\~** |      +2      |
+| Intimidire         |      +2      |     | **\~Sopravvivenza\~** |      +3      |
 | Intrattenere       |      +2      |     | Storia                |      +5      |
 
 ---
 
 ## Attacchi
 
-- **Collector**: (hit: d20+8, dmg: 2d8+dex), action (migliorie: canna lunga)
-- **Striscia**: (hit: d20+3, dmg: 1d8), bonus action
+- **Collector** (Pistola): (hit: d20+9, dmg: 2d8+4), action (migliorie: canna lunga)
+- **Striscia**: (hit: d20+4, dmg: 1d8), bonus action
+- **Concordia** (Moschetto): (hit: d20+9, dmg: 2d12+4), action (migliorie: canna lunga)
 
 ---
 
@@ -93,6 +94,8 @@ categories: [Geniere, Procione]
 - **Migliorie delle armi**:
   - Canna Lunga: aggiungi mezza intelligenza ai tiri per colpire dell'arma
 - **Tiratore Letale**: (azione per attaccare) raddoppi i dadi del primo colpo che colpisci
+- **Sotto Il Fuoco Nemico**: vantaggio sulle prove per non essere spaventato. Se ha successo, reazione per sparare.
+- **Sperimentatore**: Puoi modificare un numero di armi pari a Int. Costo: 50gold+ 50 per ogni arma personalizzata in precedenza
 
 ---
 
