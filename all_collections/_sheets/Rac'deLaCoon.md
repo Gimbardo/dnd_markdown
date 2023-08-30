@@ -26,9 +26,9 @@ categories: [Geniere, Procione]
 | Constitution | **16** (+3) |     |   Charisma   | **12** (+1) |
 
 |                   |                        |                |
-|-------------------| ---------------------- |----------------|
+|-------------------|------------------------|----------------|
 | Competenza: +3    | Percezione Passiva: 13 | Iniziativa: +4 |
-| Punti Vita: 72/72 | Classe Armatura: 15    | Velocità: 9mt  |
+| Punti Vita: 72/72 | Classe Armatura: 16    | Velocità: 9mt  |
 
 | Tiri Salvezza      | Modificatore |
 | :----------------- |:------------:|
@@ -108,7 +108,7 @@ categories: [Geniere, Procione]
 - Strumenti da calzolaio
 - Strumenti da fabbro
 - Strumenti da inventore
-- Conio: 19
+- Conio: 22
 
 ---
 
