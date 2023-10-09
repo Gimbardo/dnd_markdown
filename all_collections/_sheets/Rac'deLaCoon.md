@@ -99,6 +99,14 @@ categories: [Geniere, Procione]
 
 ---
 
+## Fama (accumulata: 10)
+
+Carriera - Sindacato degli Artigiani(custom):
+
+- 
+
+---
+
 ## Zaino
 
 - Prima pistola fatta, non funzionante
@@ -108,7 +116,8 @@ categories: [Geniere, Procione]
 - Strumenti da calzolaio
 - Strumenti da fabbro
 - Strumenti da inventore
-- Conio: 22
+- Conio: 23
+- Lanterna Verde ad Olio (2 boccini di ricambio)
 
 ---
 

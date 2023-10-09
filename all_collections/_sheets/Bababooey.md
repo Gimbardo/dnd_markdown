@@ -8,11 +8,11 @@ categories: [Wizard, Goblin]
 ---
 
 |                                    Class & Subclass                                     | Background |                                                Race                                                 |  Alignment   | Level |
-| :-------------------------------------------------------------------------------------: | :--------: | :-------------------------------------------------------------------------------------------------: | :----------: | :---: |
+|:---------------------------------------------------------------------------------------:| :--------: | :-------------------------------------------------------------------------------------------------: | :----------: | :---: |
 | [Wizard Chronurgy](https://5e.tools/classes.html#wizard_phb,state:sub-chronurgy-egw=b1) |    Sage    | [Goblin](https://5e.tools/races.html#goblin_vgm) => [Fairy](https://5e.tools/races.html#fairy_mpmm) | Neutral Good |   9   |
 
 <div align="center">
-<img src="/assets/img/Bababooey.jpg" alt="Bababooey" title="Bababooey" width="40%">
+<img src="/assets/img/Bababooey.webp" alt="Bababooey" title="Bababooey" width="40%">
 <img src="/assets/img/GoblinPlushie.png" alt="Plushie" title="Plushie" width="30%">
 </div>
 
@@ -21,8 +21,8 @@ categories: [Wizard, Goblin]
 ## Statistics
 
 |                   |                                   |               |
-| ----------------- | --------------------------------- | ------------- |
-| Proficiency: +3   | Passive Perception: 13            | Initative: +3 |
+|-------------------| --------------------------------- | ------------- |
+| Proficiency: +4   | Passive Perception: 13            | Initative: +3 |
 | Hit Points: 41/41 | Armor Class: 9 (+2 BoonOfFriends) | Speed: 30ft   |
 
 |  Strength  | Dexterity  | Constitution | Intelligence |   Wisdom    |  Charisma  |
@@ -30,25 +30,25 @@ categories: [Wizard, Goblin]
 | **-2** (6) | **-1** (8) | **+1** (12)  | **+4** (18)  | **+3** (16) | **-2** (7) |
 
 | Saving Throws          | Modifier |
-| :--------------------- | :------: |
+| :--------------------- |:--------:|
 | Strength               |  **-2**  |
 | Dexterity              |  **-1**  |
 | Constitution           |  **+1**  |
-| **\~ Intelligence \~** |  **+7**  |
-| **\~ Wisdom \~**       |  **+6**  |
+| **\~ Intelligence \~** |  **+8**  |
+| **\~ Wisdom \~**       |  **+7**  |
 | Charisma               |  **-2**  |
 
 | Skills                  | Modifier |     | Skills             | Modifier |
-| :---------------------- | :------: | :-: | :----------------- | :------: |
-| Acrobatics              |    -1    |     | **\~ Medicine \~** |    +6    |
+| :---------------------- |:--------:| :-: | :----------------- |:--------:|
+| Acrobatics              |    -1    |     | **\~ Medicine \~** |    +7    |
 | Animal Handling         |    +3    |     | Nature             |    +4    |
-| **\~ Arcana \~**        |    +7    |     | Perception         |    +3    |
+| **\~ Arcana \~**        |    +8    |     | Perception         |    +3    |
 | Athletics               |    -2    |     | Performance        |    -2    |
 | Deception               |    -2    |     | Persuasion         |    -2    |
-| **\~ History \~**       |    +7    |     | Religion           |    +4    |
+| **\~ History \~**       |    +8    |     | Religion           |    +4    |
 | Insight                 |    +3    |     | Sleight of Hand    |    -1    |
 | Intimidation            |    -2    |     | Stealth            |    -1    |
-| **\~ Investigation \~** |    +7    |     | Survival           |    +3    |
+| **\~ Investigation \~** |    +8    |     | Survival           |    +3    |
 
 ---
 
@@ -64,7 +64,7 @@ categories: [Wizard, Goblin]
 - **Ability Score**: (+2 Int +1 Wis), (+1 Int +1 Wis)
 - **Ability Score Improvement**: (+2 Cha)
 - **Darkvision**: You can see in dim light within 60 ft of you.
-- **Fury of the Small**: (uses: Prof(3)) When you damage with an attack or spell a creature larger than you, you can deal extra damege equals to your proficiency bonus. Recover all uses on long rest.
+- **Fury of the Small**: (uses: Prof(4)) When you damage with an attack or spell a creature larger than you, you can deal extra damage equals to your proficiency bonus. Recover all uses on long rest.
 - **Nimble Escape**: Disengage or Hide action as bonus action
 - **Arcane Recovery**: Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.
 - [**Chronal Shift**](https://5e.tools/classes.html#wizard_phb,state:feature=s1-0~sub-chronurgy-egw=b1): (Reaction 2/2 uses), after you or a creature you can see within 30 feet of you makes an attack roll, an ability check, or a saving throw, you can force the creature to reroll. You make this decision after you see whether the roll succeeds or fails. The target must use the result of the second roll. Regain expended uses when you finish a long rest.
@@ -85,11 +85,12 @@ categories: [Wizard, Goblin]
 - **Common Clothes**
 - [**Ring of Mind Shielding**](https://5e.tools/items.html#ring%20of%20mind%20shielding_dmg): While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it. You can use an action to cause the ring to become invisible until you use another action to make it visible, until you remove the ring, or until you die. If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication.
 - [**Cuddly Peluche of Bababooey**](https://5e.tools/items.html#cuddly%20strixhaven%20mascot_scc): Soft bear-like peluche perfect for cuddling. If you press it to your arm, shoulder, or leg as an action, the toy stays attached there for 1 hour or until you use an action to remove it. When you make a saving throw to avoid or end the frightened condition on yourself, you can give yourself advantage on the roll if the toy is on your person. You must decide to do so before rolling the d20. If the save succeeds, you can't use the toy in this way until you finish a long rest.
-- [**Bababooey's Marvelous Colors**](https://5e.tools/items.html#nolzur's%20marvelous%20pigments_dmg): (15ft usati / 3000ft ) Colors that allow you to create three-dimensional objects by painting them in two dimensions. The paint flows to form the desired object as you concentrate on its image. Each pot of paint is sufficient to cover 1,000 square feet of a surface, which lets you create inanimate objects, terrain features or weapons—that are up to 10,000 cubic feet. It takes 10 minutes to cover 100 square feet. When you complete the painting, the object or terrain feature depicted becomes a real, nonmagical object. Nothing created by the pigments can have a value greater than 25 gp. If you paint an object of greater value, the object looks authentic, but close inspection reveals it is made from worthless material. If you paint a form of energy it dissipates as soon as you complete the painting, doing no harm to anything.
+- [**Bababooey's Marvelous Colors**](https://5e.tools/items.html#nolzur's%20marvelous%20pigments_dmg): (1000ft usati / 3000ft ) Colors that allow you to create three-dimensional objects by painting them in two dimensions. The paint flows to form the desired object as you concentrate on its image. Each pot of paint is sufficient to cover 1,000 square feet of a surface, which lets you create inanimate objects, terrain features or weapons—that are up to 10,000 cubic feet. It takes 10 minutes to cover 100 square feet. When you complete the painting, the object or terrain feature depicted becomes a real, nonmagical object. Nothing created by the pigments can have a value greater than 25 gp. If you paint an object of greater value, the object looks authentic, but close inspection reveals it is made from worthless material. If you paint a form of energy it dissipates as soon as you complete the painting, doing no harm to anything.
 - **Potion of Love**
 - **Potion of Watchful Rest**
 - **Rope** 50ft
 - **Rations** 20 days
+- **Habbat** pianticella per Leif
 
 ---
 
@@ -124,8 +125,8 @@ Bababooey è un goblin verde, basso, persino per un goblin. È coperto da una tu
 
 ## Spells
 
-| Spellcasting Ability: Int | Spell Save DC: 15 | Spell Attack Bonus: +7 | N. Spells Ready: 13 |
-| ------------------------- | ----------------- | ---------------------- | ------------------- |
+| Spellcasting Ability: Int | Spell Save DC: 16 | Spell Attack Bonus: +8 | N. Spells Ready: 13 |
+| ------------------------- |-------------------|------------------------| ------------------- |
 |                           |                   |                        |                     |
 
 | Cantrips                                                              | Effect                                                |
