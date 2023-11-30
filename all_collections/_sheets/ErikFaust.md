@@ -1,6 +1,6 @@
 ---
 layout: post
-title: idk
+title: Erik Faust
 primary_color: a12e05
 secondary_color: 56048a
 title_font_color: f6f1f4
@@ -12,7 +12,7 @@ categories: [ Bard, Tiefling ]
 | Bard, College of Tragedy |   Ruined   | Tiefling (Asmodeus) | Legal Neutral |   5   |
 
 <div align="center" style="width:60%;margin:auto;">
-<img src="/assets/img/idk.webp" alt="idk" title="idk">
+<img src="/assets/img/ErikFaust.webp" alt="idk" title="idk">
 </div>
 
 ---
