@@ -12,7 +12,7 @@ categories: [ Bard, Tiefling ]
 | Bard, College of Tragedy |   Ruined   | Tiefling (Asmodeus) | Legal Neutral |   5   |
 
 <div align="center" style="width:60%;margin:auto;">
-<img src="/assets/img/ErikFaust.webp" alt="idk" title="idk">
+<img src="/assets/img/ErikFaust.webp" alt="Erik Faust" title="Erik Faust">
 </div>
 
 ---
