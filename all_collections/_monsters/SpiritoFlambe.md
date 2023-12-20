@@ -17,7 +17,7 @@ title: Flambè Spirit
 - **Hit Points** 95HP (Phase1) + 60HP (Phase 2)
 - **Speed** 20 ft
 - **Languages** Fantasia
-- **Challenge** 
+- **Challenge** 5
 
 ---
 
