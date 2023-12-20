@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sheet
 title: O'Birgam
 primary_color: 00000
 secondary_color: CE2BFF

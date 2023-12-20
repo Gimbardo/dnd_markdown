@@ -7,7 +7,13 @@
   --gray-6: #111111;
   --white-1: #eeeeee;
   --white-2: #a9abb3;
+
+  --color-1: #04AA6D;
+  --color-2: #005918;
+  --color-3: #DEB887;
+  --color-4: #1D1D35;
 }
+
 #category-modal-bg {
   position: fixed;
   top: 0;

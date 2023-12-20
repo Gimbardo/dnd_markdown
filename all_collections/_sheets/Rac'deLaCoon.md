@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sheet
 title: Rac'de La Coon
 primary_color: 685348
 secondary_color: bba08a

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sheet
 title: Erik Faust
 primary_color: a12e05
 secondary_color: 56048a
@@ -117,13 +117,13 @@ categories: [ Bard, Tiefling ]
 
 ## Description
 
-idk è un Tiefling dai lunghi capelli neri, che gira con la sua cornamusa raccontando canzoni drammatiche, e che rende overdrammatica ogni situazione.
+Erik Faust è un Tiefling dai lunghi capelli neri, che gira con la sua cornamusa raccontando canzoni drammatiche, e che rende overdrammatica ogni situazione.
 
 ## Spells
 
-| Spellcasting Ability: Charisma | Spell Save DC: 16 | Spell Attack Bonus: 8 |
-|--------------------------------|-------------------|-----------------------|
-|                                |                   |                       |
+| Spellcasting Ability | Spell Save DC | Spell Attack Bonus |
+|:--------------------:|:-------------:|:------------------:|
+|    Charisma          |   16          |     8              |
 
 | Cantrips                                                              | Effect                                         |
 |-----------------------------------------------------------------------|------------------------------------------------|

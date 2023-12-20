@@ -20,18 +20,18 @@ const categories = {
   {%- for category in my_categories -%}
     {{ category }}: [
       {%- for sheet in site.sheets -%}{% if sheet.categories contains category %}
-        {url: `{{ site.baseurl }}{{ sheet.url }}`,
-        title: `{{sheet.title}}`},
+        {
+          url: `{{ site.baseurl }}{{ sheet.url }}`,
+          title: `{{sheet.title}}`
+        },
       {% endif %}{% endfor %}
     ],
-  {%- endfor -%} }
+  {%- endfor -%}
+}
 
-
-
-// console.log(categories)
-
-window.onload = function () {
+function handle_categories() {
   document.querySelectorAll(".category").forEach((category) => {
+    console.log("A")
     category.addEventListener("click", function (e) {
       const sheets = categories[e.target.innerText.replace(" ","_")];
       let html = ``
@@ -55,4 +55,4 @@ window.onload = function () {
     document.querySelector("#category-modal-bg").classList.toggle("open");
     document.querySelector("#category-modal").classList.toggle("open");
   })
-};
+}

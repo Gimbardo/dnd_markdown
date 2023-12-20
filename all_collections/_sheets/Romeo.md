@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sheet
 title: Romeo
 primary_color: FFD919
 secondary_color: FF4019

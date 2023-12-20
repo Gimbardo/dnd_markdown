@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sheet
 title: Xirdhen
 primary_color: CE2BFF
 secondary_color: FF4019

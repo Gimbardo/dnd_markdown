@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sheet
 title: Jesty The Tortle
 primary_color: 138513
 secondary_color: de6c09

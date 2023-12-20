@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sheet
 title: Bababooey
 primary_color: 60eb8a
 secondary_color: 000000

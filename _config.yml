@@ -19,7 +19,9 @@ collections_dir: all_collections
 collections:
   sheets:
     output: true
-  oneshots:
+  monsters:
+    output: true
+  adventures:
     output: true
 
 defaults:

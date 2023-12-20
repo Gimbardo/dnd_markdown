@@ -4,7 +4,7 @@
   <body>
     <main>
       {% include header.html %}
-      <section class="articles">
+      <section class="articles" id="sheets">
         {% for sheet in site.sheets %}
         <article class="article">
           <h2 class="article-title">
@@ -12,11 +12,29 @@
           </h2>
           <div class="categories">
             {% for c in sheet.categories %}
-            <a href="#!" data-base-url="{{site.baseurl}}" class="category"
+            <a href="javascript:;" data-base-url="{{site.baseurl}}" class="category"
               >{{c}}</a
             >
             {% endfor %}
           </div>
+        </article>
+        {%endfor%}
+      </section>
+      <section class="articles" id="monsters">
+        {% for monster in site.monsters %}
+        <article class="article">
+          <h2 class="article-title">
+            <a href="{{site.baseurl}}{{monster.url}}"> {{monster.title}} </a>
+          </h2>
+        </article>
+        {%endfor%}
+      </section>
+      <section class="articles" id="adventures">
+        {% for adventure in site.adventures %}
+        <article class="article">
+          <h2 class="article-title">
+            <a href="{{site.baseurl}}{{adventure.url}}"> {{adventure.title}} </a>
+          </h2>
         </article>
         {%endfor%}
       </section>
