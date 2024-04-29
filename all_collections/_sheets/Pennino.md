@@ -131,17 +131,17 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 
 | Cantrips                                                              | Effect                                                |
 | --------------------------------------------------------------------- | ----------------------------------------------------- |
-| [Mage Hand](https://5e.tools/spells.html#mage%20hand_phb)             | Magic hand uwu :))                                    |
-| [Vicious Mockery](https://5e.tools/spells.html#vicious%20mockery_phb) | Offendili :)   |
+| [Mage Hand](https://5e.tools/spells.html#mage%20hand_phb)             | Magic Hand goes brrrr |
+| [Vicious Mockery](https://5e.tools/spells.html#vicious%20mockery_phb) | Wis Save or 1d4 psyc and disadvantage on next attack roll |
 
 | 1st level (4/4 slots) | Effect |
 | ------------  |------ |
-| [Healing Word](https://5e.tools/spells.html#healing%20word_phb)||
-| [Cure Wounds](https://5e.tools/spells.html#cure%20wounds_phb) ||
-| [Thunderwave](https://5e.tools/spells.html#thunderwave_phb) ||
-| [Dissonant Whispers](https://5e.tools/spells.html#dissonant%20whispers_phb) ||
-| [Tasha's Hideous Laughter](https://5e.tools/spells.html#tasha's%20hideous%20laughter_phb) ||
+| [Healing Word](https://5e.tools/spells.html#healing%20word_phb)| BA 1d4+mod |
+| [Cure Wounds](https://5e.tools/spells.html#cure%20wounds_phb) | 1d8+mod |
+| [Thunderwave](https://5e.tools/spells.html#thunderwave_phb) | 15ft cube from you, 2d8 thunder and pushed 10ft |
+| [Dissonant Whispers](https://5e.tools/spells.html#dissonant%20whispers_phb) | 60ft, Wis Save, or 3d6 psyc and reaction to run  |
+| [Tasha's Hideous Laughter](https://5e.tools/spells.html#tasha's%20hideous%20laughter_phb) | Wis Save, or effect |
 
 | 2nd level (2/2 slots) | Effect                            |
 | -------------------- | ------------------------ |
-| [Crown of Madness](https://5e.tools/spells.html#crown%20of%20madness_phb) ||
+| [Crown of Madness](https://5e.tools/spells.html#crown%20of%20madness_phb) | Wis Save, or effect |
