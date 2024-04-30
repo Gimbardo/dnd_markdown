@@ -40,9 +40,9 @@ categories: [Bard, Kenku]
 | Skills                  | Modifier |     | Skills                     | Modifier |
 | :---------------------- |:--------:| :-: | :------------------------- |:--------:|
 | Acrobatics              |    +3    |     | **\~ Medicine \~**         |    +6    |
-| Animal Handling         |    +3    |     | Nature                     |    +2    |
-| **\~ Arcana \~**        |    +3    |     | **\~\~ Perception \~\~**   |    +8    |
-| Athletics               |    +1    |     | Performance                |    +5    |
+| Animal Handling         |    +5    |     | Nature                     |    +2    |
+| Arcana                  |    +1    |     | **\~\~ Perception \~\~**   |    +8    |
+| Athletics               |    +1    |     | **\~ Performance \~**      |    +6    |
 | **\~\~ Deception\~\~**  |    +8    |     | **\~ Persuasion \~**       |    +6    |
 | History                 |    +2    |     | Religion                   |    +2    |
 | **\~ Insight \~**       |    +6    |     | Sleight of Hand            |    +3    |
@@ -88,7 +88,7 @@ categories: [Bard, Kenku]
 ## Tricks
 
 - **Traveler's Tricks** (4): Traveler's Tricks represent skills, techniques, and useful pieces of knowledge picked up along the way. Each one requires you to expend a use of your Bardic Inspiration, and takes a bonus action to use unless otherwise specified.
-  - **Evocation Lesson** ([Dissonant Whispers](https://5e.tools/spells.html#dissonant%20whispers_phb)): Use one of your Bardic Inspiration when you cast this spell:
+  - **Evocation Lesson** ([Cloud of Daggers](https://5e.tools/spells.html#cloud%20of%20daggers_phb)): Use one of your Bardic Inspiration when you cast this spell:
     - change the type of damage (acid, cold, fire, lightning, or thunder)
     - add to dmg bardic die + wisdom modif.
 
@@ -144,4 +144,4 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 
 | 2nd level (2/2 slots) | Effect                            |
 | -------------------- | ------------------------ |
-| [Crown of Madness](https://5e.tools/spells.html#crown%20of%20madness_phb) | Wis Save, or effect |
+| [Cloud of Daggers](https://5e.tools/spells.html#cloud%20of%20daggers_phb) | 60feet range, 5ft cube(4squares), 4d4 slashing |
