@@ -9,7 +9,7 @@ categories: [Bard, Kenku]
 
 | Class & Subclass | Background | Race | Alignment | Level |
 |:----------------:| :--------: | :--: | :-------: | :---: |
-| [Bard Road](https://5e.tools/classes.html#bard_phb,state:sub-road-hwcs=b1) | [Criminal](https://5e.tools/backgrounds.html#criminal_phb) | [Kenku](https://5e.tools/races.html#kenku_mpmm) | Neutral Good | 3 |
+| [Bard Road](https://5e.tools/classes.html#bard_phb,state:sub-road-hwcs=b1) | [Criminal](https://5e.tools/backgrounds.html#criminal_phb) | [Kenku](https://5e.tools/races.html#kenku_mpmm) | Neutral Good | 4 |
 
 <div align="center">
 <img src="/assets/img/Pennino.jpg" alt="Pennino" title="Pennino" width="70%">
@@ -21,12 +21,12 @@ categories: [Bard, Kenku]
 
 |                     |                                   |               |
 |-------------------  | --------------------------------- | ------------- |
-| Proficiency:  +2    | Passive Perception: 18            | Initative: +2 |
-| Hit Points: 27      | Armor Class: 13                   | Speed: 30ft   |
+| Proficiency:  +2    | Passive Perception: 19            | Initative: +2 |
+| Hit Points: 35      | Armor Class: 13                   | Speed: 30ft   |
 
 |  Strength  | Dexterity   | Constitution | Intelligence |   Wisdom    |  Charisma   |
 | :--------: | :---------: | :----------: | :----------: | :---------: | :---------: |
-| **0** (11) | **+2** (14) | **+3** (16)  | **+1** (13)  | **+4** (18) | **+4** (18) |
+| **0** (11) | **+2** (14) | **+3** (16)  | **+1** (13)  | **+5** (20) | **+4** (18) |
 
 | Saving Throws          | Modifier  |
 | :--------------------- |:---------:|
@@ -34,20 +34,20 @@ categories: [Bard, Kenku]
 | **\~ Dexterity  \~**   |  **+4**   |
 | Constitution           |  **+3**   |
 | Intelligence           |  **+1**   |
-| Wisdom                 |  **+4**   |
+| Wisdom                 |  **+5**   |
 | **\~ Charisma \~**     |  **+6**   |
 
 | Skills                  | Modifier |     | Skills                     | Modifier |
 | :---------------------- |:--------:| :-: | :------------------------- |:--------:|
-| Acrobatics              |    +3    |     | **\~ Medicine \~**         |    +6    |
-| Animal Handling         |    +5    |     | Nature                     |    +2    |
-| Arcana                  |    +1    |     | **\~\~ Perception \~\~**   |    +8    |
+| Acrobatics              |    +3    |     | **\~ Medicine \~**         |    +7    |
+| Animal Handling         |    +6    |     | Nature                     |    +2    |
+| Arcana                  |    +1    |     | **\~\~ Perception \~\~**   |    +9    |
 | Athletics               |    +1    |     | **\~ Performance \~**      |    +6    |
 | **\~\~ Deception\~\~**  |    +8    |     | **\~ Persuasion \~**       |    +6    |
 | History                 |    +2    |     | Religion                   |    +2    |
 | **\~ Insight \~**       |    +6    |     | Sleight of Hand            |    +3    |
 | Intimidation            |    +5    |     | **\~ Stealth  \~**         |    +4    |
-| Investigation           |    +2    |     | **\~ Survival \~**         |    +6    |
+| Investigation           |    +2    |     | **\~ Survival \~**         |    +7    |
 
 - Jack Of All Trades applicato a tutti
 - Expertise con doppia tilde
@@ -73,7 +73,7 @@ categories: [Bard, Kenku]
 - **Base Stats** (11, 13, 16, 13, 17, 17)
 - **Languages**: Common, Elvish, Dwarvish, Gnomish
 - **Ability Score**: (+1 Dex, +1 Wisdom, +1 Charisma)
-- **Ability Score Improvement**: ()
+- **Ability Score Improvement**: (+2 Wisdom)
 - **Criminal Contact**: You have a reliable and trustworthy contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you.
 - **Expert Duplication**: When you copy writing or craftwork produced by yourself or someone else, you have advantage on any ability checks you make to produce an exact duplicate.
 - **Kenku Recall**: (prof Survival Insight) When you make an ability check using any skill in which you have proficiency, you can give yourself advantage on the check before rolling the d20 (Charges = Proficiency, Recharge on Long Rest)
@@ -98,7 +98,7 @@ categories: [Bard, Kenku]
 
 | Gold | Silver | Copper |
 |:-----| :----: | :----: |
-| 15   |   0    |   0    |
+| 14   |   5    |   0    |
 
 - **Dulcimer**
 - Crowbar
@@ -110,6 +110,7 @@ categories: [Bard, Kenku]
 - 5 rations
 - waterskin
 - disguise kit
+- Volo's Guide to Monster
 
 ---
 
@@ -133,8 +134,9 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 | --------------------------------------------------------------------- | ----------------------------------------------------- |
 | [Mage Hand](https://5e.tools/spells.html#mage%20hand_phb)             | Magic Hand goes brrrr |
 | [Vicious Mockery](https://5e.tools/spells.html#vicious%20mockery_phb) | Wis Save or 1d4 psyc and disadvantage on next attack roll |
+| [Mending](https://5e.tools/spells.html#mending_phb) | Repair Stuff, 1min cast time |
 
-| 1st level (4/4 slots) | Effect |
+| 1st level (4 slots) | Effect |
 | ------------  |------ |
 | [Healing Word](https://5e.tools/spells.html#healing%20word_phb)| BA 1d4+mod |
 | [Cure Wounds](https://5e.tools/spells.html#cure%20wounds_phb) | 1d8+mod |
@@ -142,6 +144,7 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 | [Dissonant Whispers](https://5e.tools/spells.html#dissonant%20whispers_phb) | 60ft, Wis Save, or 3d6 psyc and reaction to run  |
 | [Tasha's Hideous Laughter](https://5e.tools/spells.html#tasha's%20hideous%20laughter_phb) | Wis Save, or effect |
 
-| 2nd level (2/2 slots) | Effect                            |
+| 2nd level (3 slots) | Effect                            |
 | -------------------- | ------------------------ |
 | [Cloud of Daggers](https://5e.tools/spells.html#cloud%20of%20daggers_phb) | 60feet range, 5ft cube(4squares), 4d4 slashing |
+| [Silence](https://5e.tools/spells.html#silence_phb) | 20foot radius sphere, 120 feet range, silence and immune to thunder |
