@@ -78,12 +78,13 @@ categories: [Bard, Kenku]
 - **Expert Duplication**: When you copy writing or craftwork produced by yourself or someone else, you have advantage on any ability checks you make to produce an exact duplicate.
 - **Kenku Recall**: (prof Survival Insight) When you make an ability check using any skill in which you have proficiency, you can give yourself advantage on the check before rolling the d20 (Charges = Proficiency, Recharge on Long Rest)
 - **Mimicry** You can accurately mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations only with a successful Wisdom (Insight) check against a DC of 8 + proficiency + Charisma.
-- **Bardic Inspiration** D6
+- **Bardic Inspiration** D8
 - **Jack of all Trades** half proficiency for rolls without proficiency
 - **Song of Rest** D6
 - **Bonus Proficiencies** Herbalism Kits, 2 Languages, 1 Skill
 - **Wanderer's Lore**: When a creature has a Bardic Inspiration die granted by you, they may make a single Arcana, History, Nature, or Religion check with advantage. The creature may choose whether or not to add the Bardic Inspiration die to this roll.
 - **Expertise** (2) Perception, Deception
+- **Font Of Inspiration**: Recover Inspiration on short rest
 
 ## Tricks
 
@@ -148,3 +149,7 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 | -------------------- | ------------------------ |
 | [Cloud of Daggers](https://5e.tools/spells.html#cloud%20of%20daggers_phb) | 60feet range, 5ft cube(4squares), 4d4 slashing |
 | [Silence](https://5e.tools/spells.html#silence_phb) | 20foot radius sphere, 120 feet range, silence and immune to thunder |
+
+| 2nd level (3 slots) | Effect                            |
+| -------------------- | ------------------------ |
+| [Mass Healing Word](https://5e.tools/spells.html#mass%20healing%20word_phb) | BA 60feet, 6 targets, 1d4+mod |
