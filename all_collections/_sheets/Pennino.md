@@ -150,6 +150,6 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 | [Cloud of Daggers](https://5e.tools/spells.html#cloud%20of%20daggers_phb) | 60feet range, 5ft cube(4squares), 4d4 slashing |
 | [Silence](https://5e.tools/spells.html#silence_phb) | 20foot radius sphere, 120 feet range, silence and immune to thunder |
 
-| 2nd level (3 slots) | Effect                            |
+| 3rd level (2 slots) | Effect                            |
 | -------------------- | ------------------------ |
 | [Mass Healing Word](https://5e.tools/spells.html#mass%20healing%20word_phb) | BA 60feet, 6 targets, 1d4+mod |
