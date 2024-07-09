@@ -14,6 +14,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-admin
 
 collections_dir: all_collections
 collections:
@@ -31,3 +32,4 @@ defaults:
       layout: "post"
       permalink: /:title/
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
+

@@ -31,7 +31,6 @@ const categories = {
 
 function handle_categories() {
   document.querySelectorAll(".category").forEach((category) => {
-    console.log("A")
     category.addEventListener("click", function (e) {
       const sheets = categories[e.target.innerText.replace(" ","_")];
       let html = ``

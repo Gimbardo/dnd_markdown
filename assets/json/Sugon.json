@@ -1,0 +1,16 @@
+{
+  "LVL": 15,
+  "CA": 16,
+  "HITDICE": 10,
+
+  "STR": 8,
+  "DEX": 20,
+  "CON": 16,
+  "INT": 12,
+  "WIS": 16,
+  "CHA": 8,
+  "SkillProf": ["Athletics", "Survival", "Arcana", "AnimalHandling", "Perception", "Stealth"],
+  "STProf": ["Strength", "Dexterity"],
+  "Expertise": ["Survival"],
+  "JackOfAllTrades": false
+}
