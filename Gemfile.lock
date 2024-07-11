@@ -283,7 +283,6 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jemoji
-  rack (~> 2.2.4)
   sinatra (~> 3.2.0)
   webrick
 

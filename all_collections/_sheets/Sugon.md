@@ -61,6 +61,7 @@ categories:
 ## Equipment
 
 - Leather Armor: (CA: 11+[[DEX_MOD]])
+- [Ascendant Dragon's Wrath Longbow](https://5e.tools/items.html#ascendant%20dragon's%20wrath%20longbow_ftd)(ToHit: +10, Dmg: d8+5 )
 
 ---
 
