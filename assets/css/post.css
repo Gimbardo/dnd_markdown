@@ -30,6 +30,7 @@ main {
   max-width: 800px;
   padding: 3rem 0 4rem 0;
 }
+
 .article {
   margin-bottom: 3rem;
 }
@@ -87,6 +88,7 @@ main {
   font-size: 1.4rem;
 }
 .content h5 {
+  margin: 5px 0;
   font-size: 1.2rem;
 }
 .content h6 {
@@ -96,7 +98,6 @@ main {
 .content h2,
 .content h3,
 .content h4,
-.content h5,
 .content h6 {
   margin: 1.75rem 0;
 }
@@ -203,4 +204,42 @@ main {
   body {
     padding: 1.5rem;
   }
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+  max-width: 400px;
+}
+
+.tooltip-visible {
+  display: block;
+  flex-wrap: wrap;
+}
+
+.content p {
+  white-space: pre-wrap;
+  max-width: fit-content;
+}
+
+#spell-tooltip table {
+  max-width: fit-content;
+  align-self: center;
+}
+
+
+
+li {
+  white-space: normal;
+  float: left;
+  width: 100%;
+  height: auto;
+  word-wrap: break-word;
 }

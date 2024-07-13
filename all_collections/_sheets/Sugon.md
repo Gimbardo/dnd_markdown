@@ -156,7 +156,7 @@ You a spell when you reach certain levels in this class: (3rd	[faerie fire](http
 | [Silvery Barbs](https://5e.tools/spells.html#silvery%20barbs_scc)   | Reaction => fai rerollare un d20, per tenere il risultato minore, e fai ottenere vantaggio ad un alleato (o te stesso) da usare nel prossimo minuto |
 | [Cure Wounds](https://5e.tools/spells.html#cure%20wounds_phb)       | Action => touch, 1d8+4 cura                                                                                                                         |
 | [Healing Word](https://5e.tools/spells.html#healing%20word_phb)     | Bonus Action => 60ft, 1 creature, 1d4+4 cura                                                                                                        |
-| [Unseen Servant](https://5e.tools/spells.html#unseen%20servant_phb) | invisible friend                                                                                                                                    |
+| [BRUCIA LE MANI](https://5e.tools/spells.html#burning%20hands_phb) | invisible friend                                                                                                                                    |
 | [Feather Fall](https://5e.tools/spells.html#feather%20fall_phb)     | Reaction => 5 creature, no falling damage                                                                                                           |
 
 | 2nd level (3/3 slots)                                                   | Effect                                     |
@@ -166,10 +166,13 @@ You a spell when you reach certain levels in this class: (3rd	[faerie fire](http
 
 | 3rd level (3/3 slots)                                                        | Effect                                                                                                         |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| [Motivational Speech](https://5e.tools/spells.html#motivational%20speech_ai) | 5 creature, 5 hit points, vantaggio Wisdom Saving Throw, colpito da un attacco: vantaggio nel prossimo attacco |
-| [Fear](https://5e.tools/spells.html#fear_phb)                                | Action => Wisdom Save Throw, target droppa tutto e scappa                                                      |
+| [Growth](https://5e.tools/spells.html#plant%20growth_phb) | 5 creature, 5 hit points, vantaggio Wisdom Saving Throw, colpito da un attacco: vantaggio nel prossimo attacco |
+| [BigBIIIII](https://5e.tools/spells.html#bigby's%20hand_phb)                                | Action => Wisdom Save Throw, target droppa tutto e scappa                                                      |
 
 | 4th level (2/2 slots)                                               | Effect                                  |
 | ------------------------------------------------------------------- | --------------------------------------- |
 | [Dimension Door](https://5e.tools/spells.html#dimension%20door_phb) | 500ft range, you and 1 willing creature |
 | [Charm Monster](https://5e.tools/spells.html#charm%20monster_xge)   | Charm su un mostro                      |
+|[SCRYYYY](https://5e.tools/spells.html#scrying_phb)||
+|[NON RICORDO](https://5e.tools/spells.html#daylight_phb)||
+

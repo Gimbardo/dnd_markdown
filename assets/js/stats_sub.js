@@ -11,7 +11,7 @@ proficiency = 0
 
 function substitute_stats(title) {
 
-  fetch('/assets/json/' + title + ".json")
+  return fetch('/assets/json/' + title + ".json")
     .then((response) => response.json())
     .then((json) => json_substitute(json))
     .catch(function(error) {

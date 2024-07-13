@@ -7,7 +7,10 @@
         <img
           src="https://capsule-render.vercel.app/api?type=waving&color=0:{{page.primary_color}},100:{{page.secondary_color}}&text={{page.title}}&fontSize=60&&fontColor={{page.title_font_color}}"
         />
-        <div class="content">{{content}}</div>
+        <div class="content">
+          {{content}}
+          {% include spells-tooltip.html %}
+        </div>
       </section>
       {% include footer.html %}
     </main>
@@ -17,5 +20,6 @@
   <script src="{{site.baseurl}}/assets/js/spells.js"></script>
   <script>
     substitute_stats("{{page.title}}")
+    .then(() => init_spells())
   </script>
 </html>
