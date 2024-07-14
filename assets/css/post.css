@@ -216,7 +216,7 @@ main {
   font-size: 12px;
   white-space: nowrap;
   z-index: 1000;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .tooltip-visible {
@@ -234,12 +234,26 @@ main {
   align-self: center;
 }
 
-
-
 li {
   white-space: normal;
   float: left;
   width: 100%;
   height: auto;
   word-wrap: break-word;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  flex-grow: 1;
+}
+.close-button {
+  background-color: #ff4c4c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
 }

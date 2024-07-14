@@ -10,6 +10,12 @@ schools_map = {
   "T": "Transmutation"
 }
 
+let tooltip
+let close_button
+let default_tooltip_text
+let clicked = false
+
+
 function init_spells() {
   document.querySelectorAll('a').forEach(spellLink => {
     if(!spellLink.href.startsWith("https://5e.tools/spells.html"))
@@ -18,6 +24,40 @@ function init_spells() {
     init_spell(spellLink)
   });
 }
+
+// Tooltip
+
+function init_tooltip() {
+  tooltip = document.getElementById('spell-tooltip');
+  close_button = document.getElementById('close-tooltip');
+  default_tooltip_text = tooltip.innerHTML;
+}
+
+function hide_tooltip()
+{
+  clicked = false
+  tooltip.innerHTML = default_tooltip_text
+  tooltip.classList.remove('tooltip-visible');
+}
+
+function view_tooltip(event, spell){
+  let to_replace = tooltip.innerHTML
+  to_replace = to_replace.split("[[SPELL-NAME]]").join(spell.name)
+  to_replace = to_replace.split("[[SPELL-LEVEL]]").join(spell.level_s())
+  to_replace = to_replace.split("[[SPELL-CAST]]").join(spell.casting_time_s())
+  to_replace = to_replace.split("[[SPELL-COMPONENTS]]").join(spell.components_s())
+  to_replace = to_replace.split("[[SPELL-SCHOOL]]").join(spell.school_s())
+  to_replace = to_replace.split("[[SPELL-RANGE]]").join(spell.range_s())
+  to_replace = to_replace.split("[[SPELL-DURATION]]").join(spell.duration_s())
+  to_replace = to_replace.split("[[SPELL-ENTRIES]]").join(spell.entries_s())
+
+  tooltip.innerHTML = to_replace
+  tooltip.style.left = event.pageX + 20 + 'px';
+  tooltip.style.top = event.pageY - 100 + 'px';
+  tooltip.classList.add('tooltip-visible');
+}
+
+// Spells
 
 function init_spell(spellLink){
   let spell = new Spell(spellLink.href)
@@ -35,8 +75,6 @@ class Spell{
     let name_book = url.split("#")[1].split("_")
     this.name = decodeURI(name_book[0])
     this.book = name_book[1]
-    this.tooltip = document.getElementById('spell-tooltip');
-    this.default_tooltip = this.tooltip.innerHTML
   }
 
   api_url(){
@@ -56,32 +94,31 @@ class Spell{
   }
 
   init_anchor(spellLink) {
-    spellLink.addEventListener('mouseover', (event) => {
-      let to_replace = this.tooltip.innerHTML
-      to_replace = to_replace.split("[[SPELL-NAME]]").join(this.name)
-      to_replace = to_replace.split("[[SPELL-LEVEL]]").join(this.level_s())
-      to_replace = to_replace.split("[[SPELL-CAST]]").join(this.casting_time_s())
-      to_replace = to_replace.split("[[SPELL-COMPONENTS]]").join(this.components_s())
-      to_replace = to_replace.split("[[SPELL-SCHOOL]]").join(this.school_s())
-      to_replace = to_replace.split("[[SPELL-RANGE]]").join(this.range_s())
-      to_replace = to_replace.split("[[SPELL-DURATION]]").join(this.duration_s())
-      to_replace = to_replace.split("[[SPELL-ENTRIES]]").join(this.entries_s())
+    spellLink.href = "javascript:void(0)"
+    spellLink.role = "button"
+    spellLink.addEventListener('click', (event) => {
+      view_tooltip(event, this)
+      clicked = true
+    }, false);
 
-      this.tooltip.innerHTML = to_replace
-      this.tooltip.style.left = event.pageX + 20 + 'px';
-      this.tooltip.style.top = event.pageY - 100 + 'px';
-      this.tooltip.classList.add('tooltip-visible');
+    spellLink.addEventListener('mouseover', (event) => {
+      if(clicked)
+        return
+      view_tooltip(event, this)
     });
 
     spellLink.addEventListener('mouseout', () => {
-      this.tooltip.innerHTML = this.default_tooltip
-      this.tooltip.classList.remove('tooltip-visible');
+      if(clicked)
+        return
+      hide_tooltip()
     });
 
     spellLink.addEventListener('mousemove', (event) => {
-      this.tooltip.style.left = event.pageX + 20 + 'px';
-      this.tooltip.style.top = event.pageY - 100 + 'px';
-  });
+      if(clicked)
+        return
+      tooltip.style.left = event.pageX + 20 + 'px';
+      tooltip.style.top = event.pageY - 100 + 'px';
+    });
   }
 
   level_s() {
