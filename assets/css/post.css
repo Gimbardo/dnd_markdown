@@ -224,7 +224,7 @@ main {
   flex-wrap: wrap;
 }
 
-.content p {
+.content #spell-tooltip p {
   white-space: pre-wrap;
   max-width: fit-content;
 }

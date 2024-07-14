@@ -67,8 +67,6 @@ class Spell{
       to_replace = to_replace.split("[[SPELL-DURATION]]").join(this.duration_s())
       to_replace = to_replace.split("[[SPELL-ENTRIES]]").join(this.entries_s())
 
-      console.log(this.entries_s())
-      
       this.tooltip.innerHTML = to_replace
       this.tooltip.style.left = event.pageX + 20 + 'px';
       this.tooltip.style.top = event.pageY - 100 + 'px';
@@ -110,7 +108,6 @@ class Spell{
   }
 
   range_s(){
-    "Self (15-foot cone)"
     let str = ""
     if(this.range.distance.amount)
       str = this.range.distance.amount + "-" + this.range.distance.type
