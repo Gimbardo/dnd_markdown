@@ -11,6 +11,7 @@ schools_map = {
 }
 
 let tooltip
+let overlay
 let close_button
 let default_tooltip_text
 let clicked = false
@@ -28,6 +29,7 @@ function init_spells() {
 // Tooltip
 
 function init_tooltip() {
+  overlay = document.getElementById('overlay');
   tooltip = document.getElementById('spell-tooltip');
   close_button = document.getElementById('close-tooltip');
   default_tooltip_text = tooltip.innerHTML;
@@ -38,6 +40,7 @@ function hide_tooltip()
   clicked = false
   tooltip.innerHTML = default_tooltip_text
   tooltip.classList.remove('tooltip-visible');
+  overlay.style.display = 'none';
 }
 
 function view_tooltip(event, spell){
@@ -52,8 +55,12 @@ function view_tooltip(event, spell){
   to_replace = to_replace.split("[[SPELL-ENTRIES]]").join(spell.entries_s())
 
   tooltip.innerHTML = to_replace
-  tooltip.style.left = event.pageX + 20 + 'px';
-  tooltip.style.top = event.pageY - 100 + 'px';
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  const modalHeight = tooltip.offsetHeight;
+  tooltip.style.top = (window.innerHeight / 2 - modalHeight / 2 + scrollTop) + 'px';
+  overlay.style.display = 'block';
+  //tooltip.style.left = event.pageX + 20 + 'px';
+  //tooltip.style.top = event.pageY - 100 + 'px';
   tooltip.classList.add('tooltip-visible');
 }
 
@@ -101,24 +108,24 @@ class Spell{
       clicked = true
     }, false);
 
-    spellLink.addEventListener('mouseover', (event) => {
-      if(clicked)
-        return
-      view_tooltip(event, this)
-    });
+    //spellLink.addEventListener('mouseover', (event) => {
+    //  if(clicked)
+    //    return
+    //  view_tooltip(event, this)
+    //});
+//
+    //spellLink.addEventListener('mouseout', () => {
+    //  if(clicked)
+    //    return
+    //  hide_tooltip()
+    //});
 
-    spellLink.addEventListener('mouseout', () => {
-      if(clicked)
-        return
-      hide_tooltip()
-    });
-
-    spellLink.addEventListener('mousemove', (event) => {
-      if(clicked)
-        return
-      tooltip.style.left = event.pageX + 20 + 'px';
-      tooltip.style.top = event.pageY - 100 + 'px';
-    });
+    //spellLink.addEventListener('mousemove', (event) => {
+    //  if(clicked)
+    //    return
+    //  tooltip.style.left = event.pageX + 20 + 'px';
+    //  tooltip.style.top = event.pageY - 100 + 'px';
+    //});
   }
 
   level_s() {
