@@ -1,13 +1,18 @@
-stats_skill_map =  {
-  "STR": ["Athletics"],
-  "DEX": ["Acrobatics", "SleightOfHand", "Stealth", "Initiative"],
-  "CON": [],
-  "INT": ["Arcana", "Nature", "History", "Religion", "Investigation"],
-  "WIS": ["AnimalHandling", "Perception", "Medicine", "Insight", "Survival"],
-  "CHA": ["Performance", "Deception", "Persuasion", "Intimidation"]
+
+stats_map =  {
+  "STR": stat("Strength", ["Athletics"]),
+  "DEX": stat("Dexterity", ["Acrobatics", "SleightOfHand", "Stealth", "Initiative"]),
+  "CON": stat("Constitution", []),
+  "INT": stat("Intelligence", ["Arcana", "Nature", "History", "Religion", "Investigation"]),
+  "WIS": stat("Wisdom", ["AnimalHandling", "Perception", "Medicine", "Insight", "Survival"]),
+  "CHA": stat("Charisma", ["Performance", "Deception", "Persuasion", "Intimidation"])
 }
 
-proficiency = 0
+function stat(name, skills) {
+  return { "name": name, "skills": skills }
+}
+
+let proficiency = 0
 
 function substitute_stats(title) {
 
@@ -15,7 +20,7 @@ function substitute_stats(title) {
     .then((response) => response.json())
     .then((json) => json_substitute(json))
     .catch(function(error) {
-      console.log("Can't read JSON stat file");
+      console.log("Can't read JSON stat file" + error);
     })
 }
 
@@ -27,24 +32,29 @@ function json_substitute(stats_file){
     "CA": stats_file["CA"]
   }
 
-  for(let stat in stats_skill_map) {
+  for(let stat in stats_map) {
     base_mod = stat_mod(stats_file[stat])
-
     substitution_map[stat] = stats_file[stat]
     substitution_map[stat+"_MOD"] = base_mod
     substitution_map[stat+"_ST"] = st_mod(base_mod, stats_file, stat)
 
-    for(let skill of stats_skill_map[stat]){
+    for(let skill of stats_map[stat]["skills"]){
       substitution_map[skill] = skill_mod(base_mod, stats_file, skill)
     }
     substitution_map
   }
   substitution_map["PP"] = substitution_map['Perception']+10
-  substitution_map["HP"] = stats_file["HP"] || calc_hp(stats_file["LVL"], substitution_map["CON_MOD"], stats_file["HITDICE"]),
+  substitution_map["HP"] = stats_file["HP"] || calc_hp(stats_file["LVL"], substitution_map["CON_MOD"], stats_file["HITDICE"])
+  
+  if(stats_file["SpellcastingAbility"]) {
+    stat = stats_file["SpellcastingAbility"]
+    substitution_map["SPELL_AB"] = stats_map[stat]["name"]
+    substitution_map["SPELL_DC"] = 8 + proficiency + substitution_map[stat+"_MOD"]
+    substitution_map["SPELL_ATK"] = proficiency + substitution_map[stat+"_MOD"]
+  }
 
-  console.log(substitution_map)
   for(let key in substitution_map) {
-    let value = substitution_map[key];
+    value = substitution_map[key]
     document.body.innerHTML = document.body.innerHTML.split(build_keyword(key)).join(value);
   }
 }
@@ -54,21 +64,19 @@ function stat_mod(stat) {
 }
 
 function st_mod(base_mod, stats_file, stat) {
-  stats_file["STProf"]
+  if(stats_file["STProf"]?.includes(stat))
+    return base_mod + proficiency
   return base_mod
 }
 
 function skill_mod(base_mod, stats_file, skill){
-  mod = base_mod
-  if(stats_file["JackOfAllTrades"]){
-    mod += Math.floor(proficiency/2)
-  } else {
-    if(stats_file["SkillProf"]?.includes(skill))
-      mod += proficiency
-    if(stats_file["Expertise"]?.includes(skill))
-      mod += proficiency
-  }
-  return mod
+  if(stats_file["Expertise"]?.includes(skill))
+    return base_mod + proficiency*2
+  else if(stats_file["SkillProf"]?.includes(skill))
+    return base_mod + proficiency
+  else if(stats_file["JackOfAllTrades"])
+    return base_mod + Math.floor(proficiency/2)
+  return base_mod
 }
 
 function calc_hp(lev, con, dice){
@@ -78,4 +86,8 @@ function calc_hp(lev, con, dice){
 
 function build_keyword(key) {
   return "[[" + key + "]]"
+}
+
+function signed(n) {
+  return (n<=0?"-":"+") + n
 }

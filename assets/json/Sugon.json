@@ -10,7 +10,7 @@
   "WIS": 16,
   "CHA": 8,
   "SkillProf": ["Athletics", "Survival", "Arcana", "AnimalHandling", "Perception", "Stealth"],
-  "STProf": ["Strength", "Dexterity"],
+  "STProf": ["STR", "DEX"],
   "Expertise": ["Survival"],
   "JackOfAllTrades": false
 }
