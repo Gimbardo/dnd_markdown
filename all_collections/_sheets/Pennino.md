@@ -9,7 +9,7 @@ categories: [Bard, Kenku]
 
 | Class & Subclass | Background | Race | Alignment | Level |
 |:----------------:| :--------: | :--: | :-------: | :---: |
-| [Bard Road](https://5e.tools/classes.html#bard_phb,state:sub-road-hwcs=b1) | [Criminal](https://5e.tools/backgrounds.html#criminal_phb) | [Kenku](https://5e.tools/races.html#kenku_mpmm) | Neutral Good | 4 |
+| [Bard Road](https://5e.tools/classes.html#bard_phb,state:sub-road-hwcs=b1) | [Criminal](https://5e.tools/backgrounds.html#criminal_phb) | [Kenku](https://5e.tools/races.html#kenku_mpmm) | Neutral Good | [[LVL]] |
 
 <div align="center">
 <img src="/assets/img/Pennino.jpg" alt="Pennino" title="Pennino" width="70%">
@@ -19,38 +19,38 @@ categories: [Bard, Kenku]
 
 ## Statistics
 
-|                     |                                   |               |
-|-------------------  | --------------------------------- | ------------- |
-| Proficiency:  +2    | Passive Perception: 19            | Initative: +2 |
-| Hit Points: 35      | Armor Class: 13                   | Speed: 30ft   |
+|                 |                        |               |
+| --------------- | ---------------------- | ------------- |
+| Proficiency: [[PROF]] | Passive Perception: [[PP]] | Initative: [[Initiative]] |
+| Hit Points: [[HP]]  | Armor Class: [[CA]]        | Speed: 30ft   |
 
-|  Strength  | Dexterity   | Constitution | Intelligence |   Wisdom    |  Charisma   |
-| :--------: | :---------: | :----------: | :----------: | :---------: | :---------: |
-| **0** (11) | **+2** (14) | **+3** (16)  | **+1** (13)  | **+5** (20) | **+4** (18) |
+|              |             |     |              |             |
+| :----------: |:-----------:| :-: | :----------: | :---------: |
+|   Strength   | **[[STR_MOD]]** ([[STR]]) |     | Intelligence | **[[INT_MOD]]** ([[INT]])  |
+|  Dexterity   | **[[DEX_MOD]]** ([[DEX]]) |     |    Wisdom    | **[[WIS_MOD]]** ([[WIS]]) |
+| Constitution | **[[CON_MOD]]** ([[CON]]) |     |   Charisma   | **[[CHA_MOD]]** ([[CHA]]) |
 
-| Saving Throws          | Modifier  |
-| :--------------------- |:---------:|
-| Strength               |  **0**    |
-| **\~ Dexterity  \~**   |  **+4**   |
-| Constitution           |  **+3**   |
-| Intelligence           |  **+1**   |
-| Wisdom                 |  **+5**   |
-| **\~ Charisma \~**     |  **+6**   |
+| Saving Throws       | Modifier |
+| :------------------ | :------: |
+| Strength            |  **[[STR_ST]]**  |
+| Dexterity           |  **[[DEX_ST]]**  |
+| Constitution        |  **[[CON_ST]]**  |
+| Intelligence        |  **[[INT_ST]]**  |
+| Wisdom              |  **[[WIS_ST]]**  |
+| Charisma            |  **[[CHA_ST]]**  |
 
-| Skills                  | Modifier |     | Skills                     | Modifier |
-| :---------------------- |:--------:| :-: | :------------------------- |:--------:|
-| Acrobatics              |    +3    |     | **\~ Medicine \~**         |    +7    |
-| Animal Handling         |    +6    |     | Nature                     |    +2    |
-| Arcana                  |    +1    |     | **\~\~ Perception \~\~**   |    +9    |
-| Athletics               |    +1    |     | **\~ Performance \~**      |    +6    |
-| **\~\~ Deception\~\~**  |    +8    |     | **\~ Persuasion \~**       |    +6    |
-| History                 |    +2    |     | Religion                   |    +2    |
-| **\~ Insight \~**       |    +6    |     | Sleight of Hand            |    +3    |
-| Intimidation            |    +5    |     | **\~ Stealth  \~**         |    +4    |
-| Investigation           |    +2    |     | **\~ Survival \~**         |    +7    |
+| Skills           | Modifier              |     | Skills         | Modifier             |
+| :--------------- | :------:              | :-: | :------------- | :------------------: |
+| Acrobatics       |    [[Acrobatics]]     |     | Medicine       |    [[Medicine]]      |
+| Animal Handling  |    [[AnimalHandling]] |     | Nature         |    [[Nature]]        |
+| Arcana           |    [[Arcana]]         |     | Perception     |    [[Perception]]    |
+| Athletics        |    [[Athletics]]      |     | Performance    |    [[Performance]]   |
+| Deception        |    [[Deception]]      |     | Persuasion     |    [[Persuasion]]    |
+| History          |    [[History]]        |     | Religion       |    [[Religion]]      |
+| Insight          |    [[Insight]]        |     | SleightOfHand  |    [[SleightOfHand]] |
+| Intimidation     |    [[Intimidation]]   |     | Stealth        |    [[Stealth]]       |
+| Investigation    |    [[Investigation]]  |     | Survival       |    [[Survival]]      |
 
-- Jack Of All Trades applicato a tutti
-- Expertise con doppia tilde
   
 **Other Proficiencies**:
 - thieves tools
@@ -95,26 +95,6 @@ categories: [Bard, Kenku]
 
 ---
 
-## Treasure
-
-| Gold | Silver | Copper |
-|:-----| :----: | :----: |
-| 14   |   5    |   0    |
-
-- **Dulcimer**
-- Crowbar
-- Common Clothes, including a hood
-- backpack
-- bedroll
-- 5 candles
-- 2 costumes
-- 5 rations
-- waterskin
-- disguise kit
-- Volo's Guide to Monster
-
----
-
 ## Background
 
 Pennino é un Kenku cresciuto nei dintorni di Candlekeep, in una comunitá di membri della sua razza che si guadagna da vivere derubando gli intellettuali diretti alla biblioteca. Fin da piccolino viene istruito ad aiutare la banda semplicemente distraendo le vittime, per fargli abbassare la guardia.
@@ -127,29 +107,30 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 
 ## Spells
 
-| Spellcasting Ability: Cha | Spell Save DC: 14 | Spell Attack Bonus: 6 |
+| Spellcasting Ability: [[SPELL_AB]] | Spell Save DC: [[SPELL_DC]] | Spell Attack Bonus: [[SPELL_ATK]] |
 | ------------------------- |-------------------|------------------------|
 |                           |                   |                        |
 
-| Cantrips                                                              | Effect                                                |
-| --------------------------------------------------------------------- | ----------------------------------------------------- |
-| [Mage Hand](https://5e.tools/spells.html#mage%20hand_phb)             | Magic Hand goes brrrr |
-| [Vicious Mockery](https://5e.tools/spells.html#vicious%20mockery_phb) | Wis Save or 1d4 psyc and disadvantage on next attack roll |
-| [Mending](https://5e.tools/spells.html#mending_phb) | Repair Stuff, 1min cast time |
+| Cantrips                                                              |
+| --------------------------------------------------------------------- |
+| [Mage Hand](https://5e.tools/spells.html#mage%20hand_phb)             |
+| [Vicious Mockery](https://5e.tools/spells.html#vicious%20mockery_phb) |
+| [Mending](https://5e.tools/spells.html#mending_phb) |
 
-| 1st level (4 slots) | Effect |
-| ------------  |------ |
-| [Healing Word](https://5e.tools/spells.html#healing%20word_phb)| BA 1d4+mod |
-| [Cure Wounds](https://5e.tools/spells.html#cure%20wounds_phb) | 1d8+mod |
-| [Thunderwave](https://5e.tools/spells.html#thunderwave_phb) | 15ft cube from you, 2d8 thunder and pushed 10ft |
-| [Dissonant Whispers](https://5e.tools/spells.html#dissonant%20whispers_phb) | 60ft, Wis Save, or 3d6 psyc and reaction to run  |
-| [Tasha's Hideous Laughter](https://5e.tools/spells.html#tasha's%20hideous%20laughter_phb) | Wis Save, or effect |
+| 1st level (4 slots) |
+| ------------ |
+| [Healing Word](https://5e.tools/spells.html#healing%20word_phb)|
+| [Cure Wounds](https://5e.tools/spells.html#cure%20wounds_phb) |
+| [Dissonant Whispers](https://5e.tools/spells.html#dissonant%20whispers_phb) |
+| [Tasha's Hideous Laughter](https://5e.tools/spells.html#tasha's%20hideous%20laughter_phb) |
 
-| 2nd level (3 slots) | Effect                            |
-| -------------------- | ------------------------ |
-| [Cloud of Daggers](https://5e.tools/spells.html#cloud%20of%20daggers_phb) | 60feet range, 5ft cube(4squares), 4d4 slashing |
-| [Silence](https://5e.tools/spells.html#silence_phb) | 20foot radius sphere, 120 feet range, silence and immune to thunder |
+| 2nd level (3 slots) |
+| -------------------- |
+| [Cloud of Daggers](https://5e.tools/spells.html#cloud%20of%20daggers_phb) |
+| [Silence](https://5e.tools/spells.html#silence_phb) |
 
-| 3rd level (2 slots) | Effect                            |
-| -------------------- | ------------------------ |
-| [Mass Healing Word](https://5e.tools/spells.html#mass%20healing%20word_phb) | BA 60feet, 6 targets, 1d4+mod |
+| 3rd level (3 slots) |
+| -------------------- |
+| [Mass Healing Word](https://5e.tools/spells.html#mass%20healing%20word_phb) |
+| [Enemies Abound](https://5e.tools/spells.html#enemies%20abound_xge) |
+| [Speak With Dead](https://5e.tools/spells.html#speak%20with%20dead_phb) |
