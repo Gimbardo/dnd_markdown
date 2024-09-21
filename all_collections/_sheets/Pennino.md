@@ -89,9 +89,12 @@ categories: [Bard, Kenku]
 ## Tricks
 
 - **Traveler's Tricks** (4): Traveler's Tricks represent skills, techniques, and useful pieces of knowledge picked up along the way. Each one requires you to expend a use of your Bardic Inspiration, and takes a bonus action to use unless otherwise specified.
-  - **Evocation Lesson** ([Cloud of Daggers](https://5e.tools/spells.html#cloud%20of%20daggers_phb)): Use one of your Bardic Inspiration when you cast this spell:
+  - **Evocation Lesson** ([Dissonant Whispers](https://5e.tools/spells.html#dissonant%20whispers_phb)): Use one of your Bardic Inspiration when you cast this spell:
     - change the type of damage (acid, cold, fire, lightning, or thunder)
-    - add to dmg bardic die + wisdom modif.
+    - add to dmg bardic die + [[WIS_MOD]].
+  - **Warding Trick**: Use one of your Bardic Inspiration as an action, giving to an ally a ward (as long as you mantain concentration, max 10min):
+    - give temp hp (inspiration die + [[WIS_MOD]]) to an ally
+    - when a creature deals damage to warded ally, wisdom saving throw, on fail take bardic die radiant damage
 
 ---
 
