@@ -95,6 +95,7 @@ categories: [Bard, Kenku]
   - **Warding Trick**: Use one of your Bardic Inspiration as an action, giving to an ally a ward (as long as you mantain concentration, max 10min):
     - give temp hp (inspiration die + [[WIS_MOD]]) to an ally
     - when a creature deals damage to warded ally, wisdom saving throw, on fail take bardic die radiant damage
+- **Favorite Trick**: (**Warding Trick**) If you roll initiative and have no Bardic Inspiration: regain one use of it only for your favorite trick.
 
 ---
 
