@@ -31,6 +31,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Installa libvips su Ubuntu
+      - name: Install libvips
+        run: sudo apt-get install -y libvips
+  
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
@@ -54,7 +58,6 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
