@@ -3,10 +3,14 @@ source "https://rubygems.org"
 
 gem 'sinatra', '~> 3.2.0'
 
+gem 'jekyll', '~> 4.0'
 gem "jemoji"
 gem "jekyll-admin"
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
-gem "jekyll-feed", "= 0.15.1"
+gem "jekyll-feed"
 gem 'webrick'
-gem 'github-pages', "~> 228", group: :jekyll_plugins
+group :jekyll_plugins do
+  #gem 'github-pages', "~> 232"
+  gem 'jekyll_picture_tag', "~> 2.0"
+end

@@ -1,0 +1,16 @@
+{
+  "LVL": 9,
+  "CA": 11,
+  "HITDICE": 6,
+  "HP": 53,
+
+  "STR": 11,
+  "DEX": 12,
+  "CON": 12,
+  "INT": 20,
+  "WIS": 5,
+  "CHA": 18,
+  "SkillProf": ["Animal Handling", "Arcana", "Deception", "Investigation"],
+  "STProf": ["WIS", "INT"],
+  "SpellcastingAbility": "INT"
+}

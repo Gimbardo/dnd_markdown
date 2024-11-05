@@ -20,37 +20,37 @@ categories: [Wizard, Undead]
 ## Statistics
 
 
-|                 |                                |                |
-|-----------------|--------------------------------|----------------|
-| Proficiency: +3 | Passive Perception: 11 (Skydd) | Initative: +1  |
-| Hit Points: 49  | Armor Class: 11                | Speed: 30ft    |
+|                 |                        |               |
+| --------------- | ---------------------- | ------------- |
+| Proficiency: [[PROF]] | Passive Perception: [[PP]] | Initative: [[Initiative]] |
+| Hit Points: [[HP]]  | Armor Class: [[CA]]        | Speed: 30ft   |
 
 |              |             |     |              |             |
-| :----------: |:-----------:| :-: | :----------: |:-----------:|
-|   Strength   | **0** (11)  |     | Intelligence | **+5** (20) |
-|  Dexterity   | **+1** (12) |     |    Wisdom    | **-3** (5)  |
-| Constitution | **+1** (12) |     |   Charisma   | **+4** (18) |
+| :----------: |:-----------:| :-: | :----------: | :---------: |
+|   Strength   | **[[STR_MOD]]** ([[STR]]) |     | Intelligence | **[[INT_MOD]]** ([[INT]])  |
+|  Dexterity   | **[[DEX_MOD]]** ([[DEX]]) |     |    Wisdom    | **[[WIS_MOD]]** ([[WIS]]) |
+| Constitution | **[[CON_MOD]]** ([[CON]]) |     |   Charisma   | **[[CHA_MOD]]** ([[CHA]]) |
 
-| Saving Throws          | Modifier |
-| :--------------------- | :------: |
-| Strength               |  **+0**  |
-| Dexterity              |  **+1**  |
-| Constitution           |  **+1**  |
-| **\~ Intelligence \~** |  **+5**  |
-| **\~ Wisdom \~**       |  **-3**  |
-| Charisma               |  **+4**  |
+| Saving Throws       | Modifier |
+| :------------------ | :------: |
+| Strength            |  **[[STR_ST]]**  |
+| Dexterity           |  **[[DEX_ST]]**  |
+| Constitution        |  **[[CON_ST]]**  |
+| Intelligence        |  **[[INT_ST]]**  |
+| Wisdom              |  **[[WIS_ST]]**  |
+| Charisma            |  **[[CHA_ST]]**  |
 
-| Skills                    | Modifier |   | Skills          | Modifier |
-| :------------------------ | :------: |:-:| :-------------- | :------: |
-| Acrobatics                |    +1    |   | Medicine        |    -3    |
-| **\~ Animal Handling \~** |  **0**   |   | Nature          |    +5    |
-| **\~ Arcana \~**          |  **+8**  |   | Perception      |    -3    |
-| Athletics                 |    0     |   | Performance     |    +4    |
-| **\~ Deception \~**       |  **+7**  |   | Persuasion      |    +4    |
-| History                   |    +5    |   | Religion        |    +5    |
-| Insight                   |    -3    |   | Sleight of Hand |    +1    |
-| Intimidation              |    +4    |   | Stealth         |    +1    |
-| **\~ Investigation \~**   |  **+8**  |   | Survival        |    -3    |
+| Skills           | Modifier              |     | Skills         | Modifier             |
+| :--------------- | :------:              | :-: | :------------- | :------------------: |
+| Acrobatics       |    [[Acrobatics]]     |     | Medicine       |    [[Medicine]]      |
+| Animal Handling  |    [[AnimalHandling]] |     | Nature         |    [[Nature]]        |
+| Arcana           |    [[Arcana]]         |     | Perception     |    [[Perception]]    |
+| Athletics        |    [[Athletics]]      |     | Performance    |    [[Performance]]   |
+| Deception        |    [[Deception]]      |     | Persuasion     |    [[Persuasion]]    |
+| History          |    [[History]]        |     | Religion       |    [[Religion]]      |
+| Insight          |    [[Insight]]        |     | SleightOfHand  |    [[SleightOfHand]] |
+| Intimidation     |    [[Intimidation]]   |     | Stealth        |    [[Stealth]]       |
+| Investigation    |    [[Investigation]]  |     | Survival       |    [[Survival]]      |
 
 ---
 
@@ -100,47 +100,53 @@ O'Birgam is a pale "human", with green eyes and black medium-length hair. He alw
 
 ## Spells
 
-| Spellcasting Ability: Int | Spell Save DC: 16 | Spell Attack Bonus: 8 | N. Spells Ready: 13 |
-| ------------------------- | ----------------- | --------------------- | ------------------- |
-|                           |                   |                       |                     |
+| Spellcasting Ability: [[SPELL_AB]] | Spell Save DC: [[SPELL_DC]] | Spell Attack Bonus: [[SPELL_ATK]] |
+| ------------------------- |-------------------|------------------------|
+|                           |                   |                        |
+
 
 | Cantrips         |
 | ---------------- |
-| Mage Hand        |
-| Chill Touch      |
-| Prestidigitation |
-| Minor Illusion   |
+| [Mage Hand](https://5e.tools/spells.html#mage%20hand_phb)        |
+| [Chill Touch](https://5e.tools/spells.html#chill%20touch_phb)      |
+| [Prestidigitation](https://5e.tools/spells.html#prestidigitation_phb) |
+| [Minor Illusion](https://5e.tools/spells.html#minor%20illusion_phb)   |
 
 | 1st level (4 slots)       |
 | ------------------------- |
-| Ray of Sickness           |
-| Feather Fall              |
-| Find Familiar (Rit, Conc) |
-| Grease                    |
-| Shield (React)            |
-| Mage Armor                |
-| Charm Person              |
-| Alarm                     |
-| Detect Magic (Rit, Conc)  |
-| Inflict Wounds (Talent)   |
+| [Ray of Sickness](https://5e.tools/spells.html#ray%20of%20sickness_phb)           |
+| [Feather Fall](https://5e.tools/spells.html#feather%20fall_phb)              |
+| [Find Familiar](https://5e.tools/spells.html#find%20familiar_phb) |
+| [Grease](https://5e.tools/spells.html#grease_phb)                    |
+| [Shield](https://5e.tools/spells.html#shield_phb)            |
+| [Mage Armor](https://5e.tools/spells.html#mage%20armor_phb)                |
+| [Charm Person](https://5e.tools/spells.html#charm%20person_phb)              |
+| [Alarm](https://5e.tools/spells.html#alarm_phb)                     |
+| [Detect Magic](https://5e.tools/spells.html#detect%20magic_phb)  |
+| [Inflict Wounds](https://5e.tools/spells.html#inflict%20wounds_phb)   |
 
 | 2nd level (3 slots)       |
 | ------------------------- |
-| Wither and Bloom          |
-| Crown of Madness          |
-| Dragon's Breath(Conc, BA) |
+| [Wither and Bloom](https://5e.tools/spells.html#wither%20and%20bloom_scc)          |
+| [Crown of Madness](https://5e.tools/spells.html#crown%20of%20madness_phb)          |
+| [Dragon's Breath](https://5e.tools/spells.html#dragon's%20breath_xge) |
 
 | 3rd level (3 slots)      |
 | ------------------------ |
-| Counterspell (React)     |
-| Vampiric Touch (Conc)    |
-| Summon Undead (Conc)     |
-| Enemies Abound (Conc)    |
-| Fireball                 |
-| Leomund's Tiny Hut (Rit) |
-| Animate Undead (Talent)  |
+| [Counterspell](https://5e.tools/spells.html#counterspell_phb)     |
+| [Vampiric Touch](https://5e.tools/spells.html#vampiric%20touch_phb)    |
+| [Summon Undead](https://5e.tools/spells.html#summon%20undead_tce)     |
+| [Enemies Abound](https://5e.tools/spells.html#enemies%20abound_xge)    |
+| [Fireball](https://5e.tools/spells.html#fireball_phb)                 |
+| [Leomund's Tiny Hut](https://5e.tools/spells.html#leomund's%20tiny%20hut_phb) |
+| [Animate Undead](https://5e.tools/spells.html#animate%20dead_phb)  |
 
-| 4th level (2 slots) |
+| 4th level (3 slots) |
 | ------------------- |
-| Blight              |
-| Banishment (Conc)   |
+| [Blight](https://5e.tools/spells.html#blight_phb)              |
+| [Banishment](https://5e.tools/spells.html#banishment_phb)   |
+
+| 5th level (1 slots)       |
+| ------------------------- |
+| [Negative Energy Flood](https://5e.tools/spells.html#negative%20energy%20flood_xge)     |
+| [Contact Other Plane](https://5e.tools/spells.html#contact%20other%20plane_phb) |
