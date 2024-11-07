@@ -12,9 +12,11 @@ La città della notte è un luogo nato per volere della Madre della Notte, che d
 Sergei ha accettato di portare le anime alla madre della notte per due motivi:
 
 - non ne conosce le intenzioni malvagie, dato che ai suoi occhi è un'entità (di cui non sa molto) che vuole eliminare Strahd
-- ha ricevuto la promessa di potersi ricongiungere con l'anime di Tatyana una volta finito tutto questo
+- ha ricevuto la promessa di potersi ricongiungere con l'anima di Tatyana una volta finito tutto questo
 
 ## Mappe
+
+{% picture /assets/img/adventures/CityOfTheNight/CityOfTheNight.webp %}
 
 <div align="center">
 <img src="/assets/img/adventures/CityOfTheNight/CityOfTheNight.webp" alt="Città della Notte" title="Città della Notte">
@@ -24,15 +26,25 @@ Sergei ha accettato di portare le anime alla madre della notte per due motivi:
 <img src="/assets/img/adventures/CityOfTheNight/CityOfTheNightSpoiler.webp" alt="Città della Notte" title="Città della Notte">
 </div>
 
+## Struttura Generale
+
+Il posto é abitato da anime devote alla madre della notte, che la venerano come divinità. Ci sono pochi abitanti, sparsi per i vari edifici "rubati" alla Barovia. Il luogo è silenzioso e circondato di nebbia. 
+
 ## 1 - Entrata della Città
 
-## 2 - Taverna dell'acqua Blu
+<div align="center">
+<img src="/assets/img/adventures/CityOfTheNight/Entrance.webp" alt="Entrata della Città della Notte" title="Entrata della Città della Notte">
+</div>
+
+Una lunga palizzata 
+
+## 2 - Taverna dell'Acqua Blu
 
 ## 3 - Vecchio Macinaossa
 
 ## 4 - Accampamento Vistani
 
-## 5 - Tempio della notte
+## 5 - Tempio della Notte
 
 <div align="center">
 <img src="/assets/img/adventures/CityOfTheNight/TempleOfNight.webp" alt="Tempio della Notte" title="Tempio della Notte">
