@@ -3,7 +3,7 @@ presets:
     markup: auto
     formats: [original]
     widths: [800, 1000, 1400]
-    fallback_width: 1400
+    fallback_width: 1000
     fallback_format: original
     noscript: false
     link_source: false
@@ -20,4 +20,5 @@ presets:
     data_sizes: true
     keep: attention
     dimension_attributes: false
+    link_source: true
 
