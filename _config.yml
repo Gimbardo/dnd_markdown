@@ -38,3 +38,4 @@ jekyll_admin:
 
 picture:
   source: "assets/img/"
+  ignore_missing_images: true

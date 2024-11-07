@@ -2,7 +2,8 @@ presets:
   default:
     markup: auto
     formats: [original]
-    widths: [400, 600, 800, 1000]
+    widths: [800, 1000, 1400]
+    fallback_width: 1400
     fallback_format: original
     noscript: false
     link_source: false
