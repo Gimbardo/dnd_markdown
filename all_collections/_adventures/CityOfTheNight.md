@@ -16,7 +16,7 @@ Sergei ha accettato di portare le anime alla madre della notte per due motivi:
 
 ## Mappe
 
-{% picture /assets/img/adventures/CityOfTheNight/CityOfTheNight.webp %}
+{% picture /adventures/CityOfTheNight/CityOfTheNight.webp --alt "Città della Notte" %}
 
 <div align="center">
 <img src="/assets/img/adventures/CityOfTheNight/CityOfTheNight.webp" alt="Città della Notte" title="Città della Notte">

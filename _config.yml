@@ -35,3 +35,6 @@ exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
 
 jekyll_admin:
   homepage: "all_collections"
+
+picture:
+  source: "assets/img/"
