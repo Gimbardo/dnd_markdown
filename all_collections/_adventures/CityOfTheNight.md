@@ -18,13 +18,7 @@ Sergei ha accettato di portare le anime alla madre della notte per due motivi:
 
 {% picture /adventures/CityOfTheNight/CityOfTheNight.webp --alt "Città della Notte" %}
 
-<div align="center">
-<img src="/assets/img/adventures/CityOfTheNight/CityOfTheNight.webp" alt="Città della Notte" title="Città della Notte">
-</div>
-
-<div align="center">
-<img src="/assets/img/adventures/CityOfTheNight/CityOfTheNightSpoiler.webp" alt="Città della Notte" title="Città della Notte">
-</div>
+{% picture /adventures/CityOfTheNight/CityOfTheNightSpoiler.webp --alt "Città della Notte Spoiler" %}
 
 ## Struttura Generale
 
@@ -32,9 +26,8 @@ Il posto é abitato da anime devote alla madre della notte, che la venerano come
 
 ## 1 - Entrata della Città
 
-<div align="center">
-<img src="/assets/img/adventures/CityOfTheNight/Entrance.webp" alt="Entrata della Città della Notte" title="Entrata della Città della Notte">
-</div>
+{% picture /adventures/CityOfTheNight/Entrance.webp --alt "Entrance of the City" %}
+
 
 Una lunga palizzata 
 
@@ -46,12 +39,9 @@ Una lunga palizzata
 
 ## 5 - Tempio della Notte
 
-<div align="center">
-<img src="/assets/img/adventures/CityOfTheNight/TempleOfNight.webp" alt="Tempio della Notte" title="Tempio della Notte">
-</div>
+{% picture /adventures/CityOfTheNight/TempleOfNight.webp --alt "Tempio della Notte" %}
 
-<div align="center">
-<img src="/assets/img/adventures/CityOfTheNight/MotherNight.webp" alt="Tempio della Notte" title="Tempio della Notte">
-</div>
+{% picture /adventures/CityOfTheNight/MotherNight.webp --alt "Madre della Notte" %}
+
 
 ## 6 - Uscita

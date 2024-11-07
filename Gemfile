@@ -3,7 +3,7 @@ source "https://rubygems.org"
 
 gem 'sinatra', '~> 3.2.0'
 
-gem 'jekyll', '~> 4.0'
+gem 'jekyll', '~> 4.3'
 gem "jemoji"
 gem "jekyll-admin"
 gem "jekyll-seo-tag"
