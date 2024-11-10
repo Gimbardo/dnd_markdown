@@ -6,4 +6,7 @@ services:
       - .:/app
     ports:
       - "4000:4000"
-    command: "bundle exec jekyll serve --host 0.0.0.0"
+      - "35729:35729"
+    environment:
+      - JEKYLL_ENV=development
+    command: "bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling"
