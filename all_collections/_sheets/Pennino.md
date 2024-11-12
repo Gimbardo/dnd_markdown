@@ -98,19 +98,19 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 | [Cure Wounds](https://5e.tools/spells.html#cure%20wounds_phb) |
 | [Dissonant Whispers](https://5e.tools/spells.html#dissonant%20whispers_phb) |
 | [Tasha's Hideous Laughter](https://5e.tools/spells.html#tasha's%20hideous%20laughter_phb) |
-| [Speak with Animals](https://2014.5e.tools/spells.html#speak%20with%20animals_phb) |
+| [Speak with Animals](https://5e.tools/spells.html#speak%20with%20animals_phb) |
 
 | 2nd level (3 slots) |
 | -------------------- |
 | [Silence](https://5e.tools/spells.html#silence_phb) |
-| [Knock](https://2014.5e.tools/spells.html#knock_phb) |
+| [Knock](https://5e.tools/spells.html#knock_phb) |
 
 | 3rd level (3 slots) |
 | -------------------- |
-| [Speak with Plants](https://2014.5e.tools/spells.html#speak%20with%20plants_phb) |
+| [Speak with Plants](https://5e.tools/spells.html#speak%20with%20plants_phb) |
 | [Enemies Abound](https://5e.tools/spells.html#enemies%20abound_xge) |
 | [Speak with Dead](https://5e.tools/spells.html#speak%20with%20dead_phb) |
 
 | 4th level (2 slots) |
 | -------------------- |
-| [Compulsion](https://2014.5e.tools/spells.html#compulsion_phb) |
+| [Compulsion](https://5e.tools/spells.html#compulsion_phb) |
