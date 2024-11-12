@@ -8,6 +8,9 @@
           src="https://capsule-render.vercel.app/api?type=waving&color=0:{{page.primary_color}},100:{{page.secondary_color}}&text={{page.title}}&fontSize=60&&fontColor={{page.title_font_color}}"
         />
         <div class="content">
+          {% markdown %}
+            {% include statistics.md %}
+          {% endmarkdown %}
           {{content}}
           {% include spells-tooltip.html %}
         </div>
@@ -16,8 +19,8 @@
     </main>
     {% include category-modal.html%}
   </body>
-  <script src="{{site.baseurl}}/assets/js/stats_sub.js"></script>
-  <script src="{{site.baseurl}}/assets/js/spells.js"></script>
+  <script src="/assets/js/stats_sub.js"></script>
+  <script src="/assets/js/spells.js"></script>
   <script>
     substitute_stats("{{page.title}}")
     .then(() => init_tooltip())
