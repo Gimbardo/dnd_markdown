@@ -1,0 +1,25 @@
+{
+    "LVL": 9,
+    "CA": 13,
+    "HITDICE": 6,
+    "CLASS": "Wizard",
+    "SUBCLASS": "Chronurgy",
+    "BACKGROUND": "Sage",
+    "ALIGNMENT": "Neutral Good",
+    "RACE": "Goblin",
+    "RACE_SOURCE": "VGM",
+    "SPEED": "30ft",
+
+    "HP": 41,
+  
+    "STR": 6,
+    "DEX": 8,
+    "CON": 12,
+    "INT": 18,
+    "WIS": 16,
+    "CHA": 7,
+    "SkillProf": ["Arcana", "History", "Investigation", "Medicine"],
+    "STProf": ["INT", "WIS"],
+    "SpellcastingAbility": "INT"
+  }
+  

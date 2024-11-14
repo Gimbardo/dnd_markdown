@@ -19,11 +19,13 @@
     </main>
     {% include category-modal.html%}
   </body>
-  <script src="/assets/js/stats_sub.js"></script>
+  <script type="module" src="/assets/js/stats_sub.js"></script>
   <script src="/assets/js/spells.js"></script>
-  <script>
+  <script type="module">
+    import { substitute_stats } from '/assets/js/stats_sub.js';
+
     substitute_stats("{{page.title}}")
-    .then(() => init_tooltip())
-    .then(() => init_spells())
+      .then(() => init_tooltip())
+      .then(() => init_spells())
   </script>
 </html>
