@@ -42,7 +42,7 @@ categories: [Bard, Kenku]
   - [Telekinetic](https://2014.5e.tools/feats.html#telekinetic_tce), +1 Wisdom
 - **Bardic Inspiration** D8
 - **Jack of all Trades** half proficiency for rolls without proficiency
-- **Song of Rest** D6
+- **Song of Rest** D8
 - **Bonus Proficiencies** Herbalism Kits, 2 Languages, 1 Skill
 - **Wanderer's Lore**: When a creature has a Bardic Inspiration die granted by you, they may make a single Arcana, History, Nature, or Religion check with advantage. The creature may choose whether or not to add the Bardic Inspiration die to this roll.
 - **Expertise** (2) Perception, Deception
@@ -95,7 +95,6 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 | 1st level (4 slots) |
 | ------------ |
 | [Healing Word](https://5e.tools/spells.html#healing%20word_phb)|
-| [Cure Wounds](https://5e.tools/spells.html#cure%20wounds_phb) |
 | [Dissonant Whispers](https://5e.tools/spells.html#dissonant%20whispers_phb) |
 | [Tasha's Hideous Laughter](https://5e.tools/spells.html#tasha's%20hideous%20laughter_phb) |
 | [Speak with Animals](https://5e.tools/spells.html#speak%20with%20animals_phb) |
@@ -111,6 +110,11 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 | [Enemies Abound](https://5e.tools/spells.html#enemies%20abound_xge) |
 | [Speak with Dead](https://5e.tools/spells.html#speak%20with%20dead_phb) |
 
-| 4th level (2 slots) |
+| 4th level (3 slots) |
 | -------------------- |
 | [Compulsion](https://5e.tools/spells.html#compulsion_phb) |
+
+| 5th level (1 slots) |
+| -------------------- |
+| [Mislead](https://2014.5e.tools/spells.html#mislead_phb) |
+| [Greater Restoration](https://2014.5e.tools/spells.html#greater%20restoration_phb) |
