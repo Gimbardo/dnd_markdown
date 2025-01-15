@@ -116,5 +116,5 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 
 | 5th level (1 slots) |
 | -------------------- |
-| [Mislead](https://2014.5e.tools/spells.html#mislead_phb) |
-| [Greater Restoration](https://2014.5e.tools/spells.html#greater%20restoration_phb) |
+| [Mislead](https://5e.tools/spells.html#mislead_phb) |
+| [Greater Restoration](https://5e.tools/spells.html#greater%20restoration_phb) |
