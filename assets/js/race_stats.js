@@ -1,6 +1,6 @@
 export async function race_info(data_file) {
     let data = {}
-    const race_url = `https://2014.5e.tools/data/races.json`
+    const race_url = `https://raw.githubusercontent.com/Gimbardo/5etools-scrape/refs/heads/main/data/races.json`
     await fetch(race_url)
         .then((response) => response.json())
         .then((json) => data = json_race_info(json, data_file))

@@ -40,7 +40,7 @@ categories: [Bard, Kenku]
 - **Ability Score Improvements**:
   - +1 Wisdom, +1 Int
   - [Telekinetic](https://2014.5e.tools/feats.html#telekinetic_tce), +1 Wisdom
-- **Bardic Inspiration** D8
+- **Bardic Inspiration** D10
 - **Jack of all Trades** half proficiency for rolls without proficiency
 - **Song of Rest** D8
 - **Bonus Proficiencies** Herbalism Kits, 2 Languages, 1 Skill
@@ -109,12 +109,14 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 | [Speak with Plants](https://5e.tools/spells.html#speak%20with%20plants_phb) |
 | [Enemies Abound](https://5e.tools/spells.html#enemies%20abound_xge) |
 | [Speak with Dead](https://5e.tools/spells.html#speak%20with%20dead_phb) |
+| [Hunger of Hadar](https://5e.tools/spells.html#hunger%20of%20hadar_phb) |
 
 | 4th level (3 slots) |
 | -------------------- |
 | [Compulsion](https://5e.tools/spells.html#compulsion_phb) |
 
-| 5th level (1 slots) |
+| 5th level (2 slots) |
 | -------------------- |
 | [Mislead](https://5e.tools/spells.html#mislead_phb) |
 | [Greater Restoration](https://5e.tools/spells.html#greater%20restoration_phb) |
+| [Banishing Smite](https://5e.tools/spells.html#banishing%20smite_phb) |

@@ -1,6 +1,6 @@
 export async function background_info(data_file) {
     let data = {}
-    const background_url = `https://2014.5e.tools/data/backgrounds.json`
+    const background_url = `https://raw.githubusercontent.com/Gimbardo/5etools-scrape/refs/heads/main/data/backgrounds.json`
     await fetch(background_url)
       .then((response) => response.json())
       .then((json) => data = json_background_info(json, data_file))

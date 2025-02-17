@@ -1,4 +1,4 @@
-base_api_url = "https://5e.tools/data/spells/spells-"
+base_api_url = "https://raw.githubusercontent.com/Gimbardo/5etools-scrape/refs/heads/main/data/spells/spells-"
 schools_map = {
   "A": "Abjuration",
   "C": "Conjuration",

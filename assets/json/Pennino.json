@@ -1,5 +1,5 @@
 {
-  "LVL": 8,
+  "LVL": 10,
   "CA": 13,
   "HITDICE": 8,
   "CLASS": "Bard",
@@ -18,7 +18,7 @@
   "CHA": 18,
   "SkillProf": ["Deception", "Insight", "Medicine", "Perception", "Performance", "Persiasion", "Stealth", "Survival"],
   "STProf": ["CHA", "DEX"],
-  "Expertise": ["Deception", "Perception"],
+  "Expertise": ["Deception", "Perception", "Survival", "Persuasion"],
   "JackOfAllTrades": true,
   "SpellcastingAbility": "CHA"
 }

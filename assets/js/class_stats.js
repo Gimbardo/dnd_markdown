@@ -1,6 +1,6 @@
 export async function class_info(data_file) {
 	let data = {}
-	const class_url = `https://2014.5e.tools/data/class/fluff-class-${data_file?.CLASS?.toLowerCase()}.json`
+	const class_url = `https://raw.githubusercontent.com/Gimbardo/5etools-scrape/refs/heads/main/data/class/fluff-class-${data_file?.CLASS?.toLowerCase()}.json`
 	await fetch(class_url)
 		.then((response) => response.json())
 		.then((json) => data = json_class_info(json, data_file))
