@@ -15,15 +15,14 @@ let overlay
 let close_button
 let default_tooltip_text
 let clicked = false
+let books_cache = {}
 
-
-function init_spells() {
-  document.querySelectorAll('a').forEach(spellLink => {
-    if(!spellLink.href.startsWith("https://5e.tools/spells.html"))
-      return
-
-    init_spell(spellLink)
-  });
+async function init_spells() {
+  let anchors = document.querySelectorAll('a[href^="https://5e.tools/spells.html"]')
+  
+  for(const anchor of anchors){
+    await init_spell(anchor)
+  }
 }
 
 // Tooltip
@@ -66,10 +65,26 @@ function view_tooltip(event, spell){
 
 // Spells
 
-function init_spell(spellLink){
+async function get_spell_json(spell) {
+  if (books_cache[spell.book]) {
+      return books_cache[spell.book];
+  }
+  try {
+      const response = await fetch(spell.api_url());        
+      if (!response.ok) {
+          throw new Error('API Request Error');
+      }
+      const data = await response.json();
+      books_cache[spell.book] = data;
+      return data;
+  } catch (error) {
+      console.error('Error:', error);
+  }
+}
+
+async function init_spell(spellLink){
   let spell = new Spell(spellLink.href)
-  fetch(spell.api_url())
-    .then((response) => response.json())
+  await get_spell_json(spell)
     .then((json) => spell.save_spell_info(json))
     .then(() => spell.init_anchor(spellLink))
     .catch(function(error) {
@@ -107,25 +122,6 @@ class Spell{
       view_tooltip(event, this)
       clicked = true
     }, false);
-
-    //spellLink.addEventListener('mouseover', (event) => {
-    //  if(clicked)
-    //    return
-    //  view_tooltip(event, this)
-    //});
-//
-    //spellLink.addEventListener('mouseout', () => {
-    //  if(clicked)
-    //    return
-    //  hide_tooltip()
-    //});
-
-    //spellLink.addEventListener('mousemove', (event) => {
-    //  if(clicked)
-    //    return
-    //  tooltip.style.left = event.pageX + 20 + 'px';
-    //  tooltip.style.top = event.pageY - 100 + 'px';
-    //});
   }
 
   level_s() {
