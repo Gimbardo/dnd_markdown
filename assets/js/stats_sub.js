@@ -43,7 +43,7 @@ function stat(name, skills) {
 let proficiency = 0
 
 function prepare_json(data_file){
-  const proficiency = Math.ceil(data_file["LVL"]/4)+1
+  proficiency = Math.ceil(data_file["LVL"]/4)+1
   const substitution_map = {
     "LVL": data_file["LVL"],
     "PROF": proficiency,
@@ -92,7 +92,7 @@ function st_mod(base_mod, stats_file, stat) {
 
 function skill_mod(base_mod, stats_file, skill){
   if(stats_file["Expertise"]?.includes(skill))
-    return base_mod + proficiency*2
+    return (base_mod + (proficiency*2))
   else if(stats_file["SkillProf"]?.includes(skill))
     return base_mod + proficiency
   else if(stats_file["JackOfAllTrades"])
