@@ -88,7 +88,7 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 |-------------------------------------------------------------------------|
 | [Vicious Mockery](https://5e.tools/spells.html#vicious%20mockery_phb)   |
 | [Mending](https://5e.tools/spells.html#mending_phb)                     |
-| [Message](https://5e.tools/spells.html#message_phb)                     |
+| [Message](https://5e.tools/spells.html#messagee_phb)                    |
 | [Mage Hand](https://5e.tools/spells.html#mage%20hand_phb) (Telekinetic) |
 
 **Telekinetic Mage Hand**: No Components, Invisible, +30feet range, Wisdom Modifier
@@ -100,10 +100,10 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 | [Tasha's Hideous Laughter](https://5e.tools/spells.html#tasha's%20hideous%20laughter_phb) |
 | [Speak with Animals](https://5e.tools/spells.html#speak%20with%20animals_phb) |
 
-| 2nd level (3 slots) |
-| -------------------- |
-| [Silence](https://5e.tools/spells.html#silence_phb) |
-| [Knock](https://5e.tools/spells.html#knock_phb) |
+| 2nd level (3 slots)                                               |
+|-------------------------------------------------------------------|
+| [Silence](https://5e.tools/spells.html#silence_phb)               |
+| [Enlarge/Reduce](https://5e.tools/spells.html#enlarge%2freduce_phb) |
 
 | 3rd level (3 slots) |
 | -------------------- |
