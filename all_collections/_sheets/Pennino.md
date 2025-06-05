@@ -84,10 +84,11 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 | ------------------------- |-------------------|------------------------|
 |                           |                   |                        |
 
-| Cantrips                                                              |
-| --------------------------------------------------------------------- |
-| [Vicious Mockery](https://5e.tools/spells.html#vicious%20mockery_phb) |
-| [Mending](https://5e.tools/spells.html#mending_phb) |
+| Cantrips                                                                |
+|-------------------------------------------------------------------------|
+| [Vicious Mockery](https://5e.tools/spells.html#vicious%20mockery_phb)   |
+| [Mending](https://5e.tools/spells.html#mending_phb)                     |
+| [Message](https://5e.tools/spells.html#message_phb)                     |
 | [Mage Hand](https://5e.tools/spells.html#mage%20hand_phb) (Telekinetic) |
 
 **Telekinetic Mage Hand**: No Components, Invisible, +30feet range, Wisdom Modifier
@@ -120,3 +121,7 @@ Pennino è un Kenku dal manto nero, che indossa una mantellina bianco-gialla. Po
 | [Mislead](https://5e.tools/spells.html#mislead_phb) |
 | [Greater Restoration](https://5e.tools/spells.html#greater%20restoration_phb) |
 | [Banishing Smite](https://5e.tools/spells.html#banishing%20smite_phb) |
+
+| 6th level (1 slots)                                 |
+|-----------------------------------------------------|
+| [Eyebite](https://5e.tools/spells.html#eyebite_phb) |
