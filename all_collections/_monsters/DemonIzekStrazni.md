@@ -8,7 +8,7 @@ title: Demon Izek Strazni
 *Large Construct, Neutral Evil*
 
 <div align="center" style="width:50%;margin:auto;">
-<img src="/assets/img/DemonIzekStrazni.webp" alt="Demon Izek Strazni" title="Demon Izek Strazni">
+<img src="/assets/img/DemonIzekStrazni.jpg" alt="Demon Izek Strazni" title="Demon Izek Strazni">
 </div>
 
 ---
